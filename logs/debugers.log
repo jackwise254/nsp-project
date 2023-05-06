@@ -1,0 +1,1311 @@
+INFO 2023-04-14 19:17:33,331 Watching for file changes with StatReloader
+INFO 2023-04-14 19:17:51,724 Watching for file changes with StatReloader
+ERROR 2023-04-14 19:20:18,790 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'current-session' not found. 'current-session' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:20:18,801 "GET / HTTP/1.1" 500 146356
+ERROR 2023-04-14 19:20:48,514 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'current-session' not found. 'current-session' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:20:48,516 "GET / HTTP/1.1" 500 145971
+ERROR 2023-04-14 19:20:52,156 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'current-session' not found. 'current-session' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:20:52,161 "GET / HTTP/1.1" 500 145971
+ERROR 2023-04-14 19:21:40,513 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'current-session' not found. 'current-session' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:21:40,514 "GET / HTTP/1.1" 500 145825
+ERROR 2023-04-14 19:22:04,330 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'parent-list' not found. 'parent-list' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:22:04,334 "GET / HTTP/1.1" 500 150041
+ERROR 2023-04-14 19:22:17,842 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-list' not found. 'student-list' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:22:17,843 "GET / HTTP/1.1" 500 150828
+ERROR 2023-04-14 19:22:31,813 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'staff-list' not found. 'staff-list' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:22:31,815 "GET / HTTP/1.1" 500 151439
+ERROR 2023-04-14 19:22:48,030 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'assign_teachers' not found. 'assign_teachers' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:22:48,031 "GET / HTTP/1.1" 500 152307
+ERROR 2023-04-14 19:24:14,323 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'view-timetable' not found. 'view-timetable' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:24:14,327 "GET / HTTP/1.1" 500 151351
+ERROR 2023-04-14 19:24:32,749 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 19, in Home
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'configs' not found. 'configs' is not a valid view function or pattern name.
+ERROR 2023-04-14 19:24:32,750 "GET / HTTP/1.1" 500 150398
+INFO 2023-04-14 19:24:49,354 "GET / HTTP/1.1" 200 9667
+INFO 2023-04-14 19:25:27,821 "GET / HTTP/1.1" 200 9677
+INFO 2023-04-14 19:26:02,950 "GET / HTTP/1.1" 200 9670
+INFO 2023-04-14 19:26:12,640 "GET / HTTP/1.1" 200 9670
+INFO 2023-04-14 19:26:21,954 "GET / HTTP/1.1" 200 9670
+INFO 2023-04-14 19:26:30,788 "GET / HTTP/1.1" 200 9670
+INFO 2023-04-14 19:28:39,609 "GET / HTTP/1.1" 200 9680
+WARNING 2023-04-14 19:28:46,023 Not Found: /backend/admin
+WARNING 2023-04-14 19:28:46,025 "GET /backend/admin HTTP/1.1" 404 2304
+INFO 2023-04-14 19:29:39,556 "GET / HTTP/1.1" 200 9689
+INFO 2023-04-14 19:29:59,295 "GET / HTTP/1.1" 200 9725
+WARNING 2023-04-14 19:35:38,520 Not Found: /result/individualresult/411
+WARNING 2023-04-14 19:35:38,521 "POST /result/individualresult/411 HTTP/1.1" 404 2347
+WARNING 2023-04-14 19:35:40,742 Not Found: /result/individualresult/411
+WARNING 2023-04-14 19:35:40,743 "GET /result/individualresult/411 HTTP/1.1" 404 2346
+WARNING 2023-04-14 19:35:41,666 Not Found: /student/411/
+WARNING 2023-04-14 19:35:41,667 "GET /student/411/ HTTP/1.1" 404 2301
+WARNING 2023-04-14 19:35:42,390 Not Found: /student/list
+WARNING 2023-04-14 19:35:42,391 "GET /student/list HTTP/1.1" 404 2301
+WARNING 2023-04-14 19:35:43,009 Not Found: /session/list/
+WARNING 2023-04-14 19:35:43,011 "GET /session/list/ HTTP/1.1" 404 2304
+WARNING 2023-04-14 19:35:43,569 Not Found: /session/2/update/
+WARNING 2023-04-14 19:35:43,570 "GET /session/2/update/ HTTP/1.1" 404 2316
+WARNING 2023-04-14 19:35:44,673 Not Found: /session/create/
+WARNING 2023-04-14 19:35:44,675 "GET /session/create/?next=current-session/ HTTP/1.1" 404 2332
+WARNING 2023-04-14 19:35:45,252 Not Found: /current-session/
+WARNING 2023-04-14 19:35:45,253 "GET /current-session/ HTTP/1.1" 404 2313
+WARNING 2023-04-14 19:35:45,807 Not Found: /result/individualresult/108
+WARNING 2023-04-14 19:35:45,807 "GET /result/individualresult/108 HTTP/1.1" 404 2346
+INFO 2023-04-14 19:35:49,548 "GET / HTTP/1.1" 200 9723
+INFO 2023-04-14 19:38:11,845 "GET / HTTP/1.1" 200 9795
+INFO 2023-04-14 19:40:05,641 "GET / HTTP/1.1" 200 9870
+INFO 2023-04-14 19:40:24,758 "GET / HTTP/1.1" 200 9879
+INFO 2023-04-14 19:47:32,574 "GET / HTTP/1.1" 200 4647
+INFO 2023-04-14 19:48:55,660 "GET / HTTP/1.1" 200 4647
+INFO 2023-04-14 19:49:38,995 "GET / HTTP/1.1" 200 4646
+WARNING 2023-04-14 19:49:40,467 Not Found: /backend/home
+WARNING 2023-04-14 19:49:40,469 "GET /backend/home HTTP/1.1" 404 2301
+INFO 2023-04-14 19:49:57,520 "GET / HTTP/1.1" 200 4651
+INFO 2023-04-14 19:49:59,922 "GET / HTTP/1.1" 200 4651
+INFO 2023-04-14 19:50:35,303 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:36,835 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:39,668 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:41,027 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:42,946 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:44,077 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:46,046 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:47,382 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:49,353 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:50,615 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:52,159 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:53,521 Watching for file changes with StatReloader
+INFO 2023-04-14 19:50:55,267 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-14 19:50:56,516 Watching for file changes with StatReloader
+INFO 2023-04-14 19:51:25,218 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:51:26,712 Watching for file changes with StatReloader
+INFO 2023-04-14 19:51:46,027 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:51:47,639 Watching for file changes with StatReloader
+INFO 2023-04-14 19:51:49,746 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:51:51,473 Watching for file changes with StatReloader
+INFO 2023-04-14 19:51:56,737 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:51:58,015 Watching for file changes with StatReloader
+INFO 2023-04-14 19:52:05,377 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:52:06,586 Watching for file changes with StatReloader
+INFO 2023-04-14 19:55:14,796 "GET / HTTP/1.1" 200 4666
+WARNING 2023-04-14 19:55:33,081 Not Found: /backend/nurses
+WARNING 2023-04-14 19:55:33,081 "GET /backend/nurses HTTP/1.1" 404 2475
+INFO 2023-04-14 19:56:12,556 "GET / HTTP/1.1" 200 4658
+INFO 2023-04-14 19:56:13,991 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:56:17,078 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:56:18,046 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:56:40,564 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:56:41,536 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:04,831 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-14 19:57:06,243 Watching for file changes with StatReloader
+INFO 2023-04-14 19:57:09,413 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:10,382 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:20,064 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:57:21,699 Watching for file changes with StatReloader
+INFO 2023-04-14 19:57:28,026 Watching for file changes with StatReloader
+ERROR 2023-04-14 19:57:31,251 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: nursesss/nurse.html
+ERROR 2023-04-14 19:57:31,254 "GET /nurses HTTP/1.1" 500 84290
+INFO 2023-04-14 19:57:38,629 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:57:40,392 Watching for file changes with StatReloader
+INFO 2023-04-14 19:57:40,900 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:43,092 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:44,065 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:57:53,395 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-14 19:57:55,264 Watching for file changes with StatReloader
+ERROR 2023-04-14 19:57:59,977 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: nurses/nurses.html
+ERROR 2023-04-14 19:57:59,982 "GET /nurses HTTP/1.1" 500 84274
+INFO 2023-04-14 19:58:17,089 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:59:09,044 "GET /nurses HTTP/1.1" 200 4656
+INFO 2023-04-14 19:59:14,824 "GET /nurses HTTP/1.1" 200 4656
+WARNING 2023-04-14 19:59:16,371 Not Found: /backend/home-page
+WARNING 2023-04-14 19:59:16,372 "GET /backend/home-page HTTP/1.1" 404 2484
+WARNING 2023-04-14 19:59:34,649 Not Found: /backend/home-page
+WARNING 2023-04-14 19:59:34,650 "GET /backend/home-page HTTP/1.1" 404 2484
+INFO 2023-04-14 19:59:36,921 "GET /nurses HTTP/1.1" 200 4648
+WARNING 2023-04-14 19:59:38,594 Not Found: /home-page
+WARNING 2023-04-14 19:59:38,595 "GET /home-page HTTP/1.1" 404 2460
+INFO 2023-04-14 19:59:52,311 "GET /nurses HTTP/1.1" 200 4639
+INFO 2023-04-14 19:59:53,808 "GET / HTTP/1.1" 200 4641
+INFO 2023-04-14 19:59:56,015 "GET /nurses HTTP/1.1" 200 4639
+INFO 2023-04-14 20:00:55,159 "GET /nurses HTTP/1.1" 200 4639
+INFO 2023-04-14 20:00:57,907 "GET /nurses HTTP/1.1" 200 4639
+INFO 2023-04-14 20:01:12,355 "GET /nurses HTTP/1.1" 200 4639
+INFO 2023-04-15 11:40:31,324 Watching for file changes with StatReloader
+INFO 2023-04-15 11:40:46,068 "GET / HTTP/1.1" 200 4641
+WARNING 2023-04-15 11:40:46,922 Not Found: /favicon.ico
+WARNING 2023-04-15 11:40:46,922 "GET /favicon.ico HTTP/1.1" 404 2466
+INFO 2023-04-15 11:40:48,988 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:40:49,083 Not Found: /styles/style.css
+WARNING 2023-04-15 11:40:49,086 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:40:49,087 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:40:49,087 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:40:51,128 Not Found: /script.js
+WARNING 2023-04-15 11:40:51,142 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:40:51,150 Not Found: /<
+WARNING 2023-04-15 11:40:51,152 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:41:34,754 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:41:34,826 Not Found: /styles/style.css
+WARNING 2023-04-15 11:41:34,827 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:41:34,831 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:41:34,832 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:41:34,862 Not Found: /script.js
+WARNING 2023-04-15 11:41:34,865 Not Found: /<
+WARNING 2023-04-15 11:41:34,865 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:41:34,866 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:41:35,757 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:41:35,827 Not Found: /styles/style.css
+WARNING 2023-04-15 11:41:35,828 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:41:35,831 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:41:35,832 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:41:35,865 Not Found: /script.js
+WARNING 2023-04-15 11:41:35,868 Not Found: /<
+WARNING 2023-04-15 11:41:35,870 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:41:35,871 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:44:00,327 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:00,376 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:00,379 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:00,379 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:00,380 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:00,418 Not Found: /script.js
+WARNING 2023-04-15 11:44:00,422 Not Found: /<
+WARNING 2023-04-15 11:44:00,423 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 11:44:00,423 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 11:44:02,040 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:02,095 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:02,098 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:02,100 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:02,101 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:02,133 Not Found: /script.js
+WARNING 2023-04-15 11:44:02,135 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:44:02,139 Not Found: /<
+WARNING 2023-04-15 11:44:02,139 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:44:02,764 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:02,839 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:02,840 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:02,841 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:02,842 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:02,863 Not Found: /<
+WARNING 2023-04-15 11:44:02,867 Not Found: /script.js
+WARNING 2023-04-15 11:44:02,868 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 11:44:02,869 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 11:44:03,128 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:03,199 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:03,199 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:03,205 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:03,210 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:03,228 Not Found: /script.js
+WARNING 2023-04-15 11:44:03,230 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:44:03,232 Not Found: /<
+WARNING 2023-04-15 11:44:03,233 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:44:03,314 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:03,357 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:03,358 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:03,360 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:03,360 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:03,385 Not Found: /script.js
+WARNING 2023-04-15 11:44:03,387 Not Found: /<
+WARNING 2023-04-15 11:44:03,389 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 11:44:03,390 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 11:44:03,561 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:03,613 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:03,618 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:03,619 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:03,620 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:03,639 Not Found: /script.js
+WARNING 2023-04-15 11:44:03,640 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:44:03,644 Not Found: /<
+WARNING 2023-04-15 11:44:03,646 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:44:03,795 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:03,842 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:03,845 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:03,846 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:03,846 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:03,871 Not Found: /script.js
+WARNING 2023-04-15 11:44:03,874 Not Found: /<
+WARNING 2023-04-15 11:44:03,875 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:44:03,875 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:44:04,087 "GET /nurses HTTP/1.1" 200 4899
+WARNING 2023-04-15 11:44:04,138 Not Found: /styles/style.css
+WARNING 2023-04-15 11:44:04,140 "GET /styles/style.css HTTP/1.1" 404 2481
+WARNING 2023-04-15 11:44:04,143 Not Found: /styles/responsive.css
+WARNING 2023-04-15 11:44:04,144 "GET /styles/responsive.css HTTP/1.1" 404 2496
+WARNING 2023-04-15 11:44:04,174 Not Found: /script.js
+WARNING 2023-04-15 11:44:04,177 Not Found: /<
+WARNING 2023-04-15 11:44:04,178 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 11:44:04,179 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 11:46:15,241 "GET /nurses HTTP/1.1" 200 4919
+INFO 2023-04-15 11:46:15,488 "GET /static/styles/style.css HTTP/1.1" 200 16562
+INFO 2023-04-15 11:46:15,489 "GET /static/styles/responsive.css HTTP/1.1" 200 4449
+WARNING 2023-04-15 11:46:15,511 Not Found: /script.js
+WARNING 2023-04-15 11:46:15,513 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:46:15,515 Not Found: /<
+WARNING 2023-04-15 11:46:15,516 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:54:08,349 "GET /nurses HTTP/1.1" 200 4919
+WARNING 2023-04-15 11:54:08,446 Not Found: /script.js
+WARNING 2023-04-15 11:54:08,446 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:54:08,458 Not Found: /<
+WARNING 2023-04-15 11:54:08,460 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 11:54:28,422 Not Found: /cart.php
+WARNING 2023-04-15 11:54:28,423 "GET /cart.php HTTP/1.1" 404 2457
+INFO 2023-04-15 11:55:54,659 "GET /nurses HTTP/1.1" 200 4919
+WARNING 2023-04-15 11:55:54,725 Not Found: /script.js
+WARNING 2023-04-15 11:55:54,727 Not Found: /<
+WARNING 2023-04-15 11:55:54,728 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:55:54,728 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 11:57:31,942 "GET /nurses HTTP/1.1" 200 4919
+WARNING 2023-04-15 11:57:32,033 Not Found: /script.js
+WARNING 2023-04-15 11:57:32,034 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 11:57:32,037 Not Found: /<
+WARNING 2023-04-15 11:57:32,037 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 12:06:04,425 "GET /nurses HTTP/1.1" 200 4895
+WARNING 2023-04-15 12:06:04,515 Not Found: /script.js
+WARNING 2023-04-15 12:06:04,518 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 12:06:04,526 Not Found: /<
+WARNING 2023-04-15 12:06:04,527 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 12:06:31,177 "GET /nurses HTTP/1.1" 200 4840
+WARNING 2023-04-15 12:06:31,252 Not Found: /<
+WARNING 2023-04-15 12:06:31,258 Not Found: /script.js
+WARNING 2023-04-15 12:06:31,259 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+WARNING 2023-04-15 12:06:31,261 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:06:42,536 "GET /nurses HTTP/1.1" 200 4849
+WARNING 2023-04-15 12:06:42,597 Not Found: /script.js
+WARNING 2023-04-15 12:06:42,601 Not Found: /<
+WARNING 2023-04-15 12:06:42,601 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 12:06:42,603 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 12:07:51,759 "GET /nurses HTTP/1.1" 200 4908
+WARNING 2023-04-15 12:07:51,809 Not Found: /script.js
+WARNING 2023-04-15 12:07:51,810 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 12:07:51,822 Not Found: /<
+WARNING 2023-04-15 12:07:51,822 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 12:09:12,140 "GET /nurses HTTP/1.1" 200 4105
+WARNING 2023-04-15 12:09:12,212 Not Found: /script.js
+WARNING 2023-04-15 12:09:12,212 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 12:09:12,225 Not Found: /<
+WARNING 2023-04-15 12:09:12,225 "GET /%3C?php%20echo%20$r[%27image_link%27];?%3E HTTP/1.1" 404 2483
+INFO 2023-04-15 12:09:52,275 "GET /nurses HTTP/1.1" 200 1926
+WARNING 2023-04-15 12:09:52,322 Not Found: /script.js
+WARNING 2023-04-15 12:09:52,323 "GET /script.js HTTP/1.1" 404 2460
+WARNING 2023-04-15 12:09:57,910 Not Found: /home.php
+WARNING 2023-04-15 12:09:57,912 "GET /home.php HTTP/1.1" 404 2457
+INFO 2023-04-15 12:10:17,116 "GET / HTTP/1.1" 200 4641
+INFO 2023-04-15 12:10:18,300 "GET /nurses HTTP/1.1" 200 1919
+WARNING 2023-04-15 12:10:18,353 Not Found: /script.js
+WARNING 2023-04-15 12:10:18,353 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:10:20,518 "GET / HTTP/1.1" 200 4641
+INFO 2023-04-15 12:10:41,999 "GET /nurses HTTP/1.1" 200 1919
+WARNING 2023-04-15 12:10:42,051 Not Found: /script.js
+WARNING 2023-04-15 12:10:42,052 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:10:55,098 "GET / HTTP/1.1" 200 4641
+INFO 2023-04-15 12:11:11,530 "GET /nurses HTTP/1.1" 200 1919
+WARNING 2023-04-15 12:11:11,599 Not Found: /script.js
+WARNING 2023-04-15 12:11:11,600 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:14:24,376 "GET /nurses HTTP/1.1" 200 1903
+WARNING 2023-04-15 12:14:24,449 Not Found: /script.js
+WARNING 2023-04-15 12:14:24,450 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:14:27,723 "GET / HTTP/1.1" 200 3675
+INFO 2023-04-15 12:14:30,679 "GET /nurses HTTP/1.1" 200 1903
+WARNING 2023-04-15 12:14:30,764 Not Found: /script.js
+WARNING 2023-04-15 12:14:30,765 "GET /script.js HTTP/1.1" 404 2460
+INFO 2023-04-15 12:14:33,217 "GET / HTTP/1.1" 200 3675
+INFO 2023-04-15 12:15:57,323 "GET / HTTP/1.1" 200 3660
+INFO 2023-04-15 12:15:59,418 "GET /nurses HTTP/1.1" 200 3658
+INFO 2023-04-15 12:16:02,752 "GET /nurses HTTP/1.1" 200 3658
+INFO 2023-04-15 12:16:03,410 "GET / HTTP/1.1" 200 3660
+INFO 2023-04-15 12:16:04,436 "GET /nurses HTTP/1.1" 200 3658
+INFO 2023-04-15 12:16:29,986 "GET / HTTP/1.1" 200 3660
+INFO 2023-04-15 12:16:31,256 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:16:44,158 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:16:45,257 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:16:59,228 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:17:01,120 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:17:05,038 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:17:05,972 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:18:36,587 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:18:38,985 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:18:40,162 "GET /nurses HTTP/1.1" 200 3660
+INFO 2023-04-15 12:20:39,255 "GET / HTTP/1.1" 200 3665
+ERROR 2023-04-15 12:20:41,501 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 33: 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-04-15 12:20:41,504 "GET /nurses HTTP/1.1" 500 146178
+INFO 2023-04-15 12:20:55,841 "GET /nurses HTTP/1.1" 200 3663
+INFO 2023-04-15 12:21:11,908 "GET /nurses HTTP/1.1" 200 3663
+INFO 2023-04-15 12:21:24,464 "GET / HTTP/1.1" 200 3665
+INFO 2023-04-15 12:21:27,376 "GET /nurses HTTP/1.1" 200 3663
+WARNING 2023-04-15 12:21:29,587 Not Found: /index.html
+WARNING 2023-04-15 12:21:29,588 "GET /index.html HTTP/1.1" 404 2463
+WARNING 2023-04-15 12:21:34,130 Not Found: /index.html
+WARNING 2023-04-15 12:21:34,132 "GET /index.html HTTP/1.1" 404 2463
+INFO 2023-04-15 12:21:39,225 "GET /nurses HTTP/1.1" 200 3663
+INFO 2023-04-15 12:22:41,520 "GET /nurses HTTP/1.1" 200 3668
+INFO 2023-04-15 12:23:15,561 "GET /nurses HTTP/1.1" 200 3668
+INFO 2023-04-15 12:23:39,355 Watching for file changes with StatReloader
+INFO 2023-04-15 12:23:44,182 "GET /nurses HTTP/1.1" 200 3668
+ERROR 2023-04-15 12:24:04,885 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: backend_nurses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: backend_nurses
+ERROR 2023-04-15 12:24:04,893 "GET /nurses HTTP/1.1" 500 169436
+INFO 2023-04-15 12:25:00,578 "GET /nurses HTTP/1.1" 200 3665
+ERROR 2023-04-15 12:25:16,288 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: backend_nurses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: backend_nurses
+ERROR 2023-04-15 12:25:16,294 "GET /nurses HTTP/1.1" 500 169438
+ERROR 2023-04-15 12:28:33,192 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: backend_nurses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: backend_nurses
+ERROR 2023-04-15 12:28:33,195 "GET /nurses HTTP/1.1" 500 178986
+ERROR 2023-04-15 12:28:50,110 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such table: backend_nurses
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such table: backend_nurses
+ERROR 2023-04-15 12:28:50,113 "GET /nurses HTTP/1.1" 500 178892
+INFO 2023-04-15 12:30:57,221 "GET /nurses HTTP/1.1" 200 4217
+INFO 2023-04-15 12:33:12,764 "GET /nurses HTTP/1.1" 200 4226
+ERROR 2023-04-15 12:34:56,690 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 29, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 53, in render
+    result = self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 449, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 698, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'student-create' not found. 'student-create' is not a valid view function or pattern name.
+ERROR 2023-04-15 12:34:56,701 "GET /nurses HTTP/1.1" 500 143779
+INFO 2023-04-15 12:35:22,224 "GET /nurses HTTP/1.1" 200 4582
+INFO 2023-04-15 12:36:10,839 "GET /nurses HTTP/1.1" 200 4518
+INFO 2023-04-15 12:37:26,735 "GET /nurses HTTP/1.1" 200 4412
+INFO 2023-04-15 12:37:50,078 "GET /nurses HTTP/1.1" 200 4413
+INFO 2023-04-15 12:39:40,921 "GET / HTTP/1.1" 200 3665
+INFO 2023-04-15 12:39:44,380 "GET /nurses HTTP/1.1" 200 4435
+INFO 2023-04-15 12:41:18,475 "GET /nurses HTTP/1.1" 200 4439
+INFO 2023-04-15 12:43:05,049 "GET /nurses HTTP/1.1" 200 4405
+INFO 2023-04-15 12:45:47,770 "GET /nurses HTTP/1.1" 200 7894
+INFO 2023-04-15 12:49:25,254 "GET /nurses HTTP/1.1" 200 6110
+INFO 2023-04-15 12:49:45,007 "GET /nurses HTTP/1.1" 200 5460
+INFO 2023-04-15 12:51:08,439 "GET /nurses HTTP/1.1" 200 5449
+INFO 2023-04-15 12:51:50,361 "GET /nurses HTTP/1.1" 200 5468
+INFO 2023-04-15 12:52:25,717 "GET /nurses HTTP/1.1" 200 5464
+INFO 2023-04-15 12:53:51,382 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-15 12:53:52,504 Watching for file changes with StatReloader
+INFO 2023-04-15 13:02:12,842 "GET /nurses HTTP/1.1" 200 6734
+INFO 2023-04-15 13:03:32,061 "GET /nurses HTTP/1.1" 200 6746
+INFO 2023-04-15 13:04:24,070 "GET /nurses HTTP/1.1" 200 6762
+INFO 2023-04-15 13:05:04,972 "GET /nurses HTTP/1.1" 200 6764
+INFO 2023-04-15 13:07:37,076 "GET /nurses HTTP/1.1" 200 6764
+INFO 2023-04-15 13:09:03,527 "GET /nurses HTTP/1.1" 200 6843
+INFO 2023-04-15 13:09:29,804 "GET /nurses HTTP/1.1" 200 6857
+INFO 2023-04-15 13:10:59,890 "GET /nurses HTTP/1.1" 200 6932
+INFO 2023-04-15 13:12:28,192 "GET /nurses HTTP/1.1" 200 6857
+INFO 2023-04-15 13:12:51,053 "GET /nurses HTTP/1.1" 200 6862
+INFO 2023-04-15 13:13:44,762 "GET /nurses HTTP/1.1" 200 6990
+INFO 2023-04-15 13:14:46,087 "GET /nurses HTTP/1.1" 200 7090
+INFO 2023-04-15 13:16:35,172 "GET /nurses HTTP/1.1" 200 7351
+INFO 2023-04-15 13:17:03,554 "GET /nurses HTTP/1.1" 200 7351
+WARNING 2023-04-15 13:17:06,075 Forbidden (CSRF token missing or incorrect.): /nurses
+WARNING 2023-04-15 13:17:06,077 "POST /nurses HTTP/1.1" 403 2519
+INFO 2023-04-15 13:17:25,216 "GET /nurses HTTP/1.1" 200 7365
+WARNING 2023-04-15 13:17:36,122 Forbidden (CSRF token missing or incorrect.): /nurses
+WARNING 2023-04-15 13:17:36,123 "POST /nurses HTTP/1.1" 403 2519
+INFO 2023-04-15 13:20:25,916 "GET /nurses HTTP/1.1" 200 7360
+WARNING 2023-04-15 14:53:26,394 Not Found: /favicon.ico
+WARNING 2023-04-15 14:53:26,397 "GET /favicon.ico HTTP/1.1" 404 2466
+INFO 2023-04-16 21:20:52,771 Watching for file changes with StatReloader
+INFO 2023-04-16 21:21:01,277 "GET / HTTP/1.1" 200 3665
+WARNING 2023-04-16 21:21:02,053 Not Found: /favicon.ico
+WARNING 2023-04-16 21:21:02,054 "GET /favicon.ico HTTP/1.1" 404 2466
+INFO 2023-04-16 21:21:04,199 "GET / HTTP/1.1" 200 3665
+INFO 2023-04-16 21:21:05,977 "GET /nurses HTTP/1.1" 200 7359
+INFO 2023-04-16 21:23:22,040 "GET /nurses HTTP/1.1" 200 7474
+INFO 2023-04-16 21:23:37,010 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:23:43,327 Watching for file changes with StatReloader
+INFO 2023-04-16 21:23:47,100 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:23:51,101 Watching for file changes with StatReloader
+INFO 2023-04-16 21:23:52,995 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:23:55,704 Watching for file changes with StatReloader
+INFO 2023-04-16 21:23:57,372 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:23:59,199 Watching for file changes with StatReloader
+INFO 2023-04-16 21:24:35,612 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:24:37,143 Watching for file changes with StatReloader
+INFO 2023-04-16 21:24:41,988 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:24:43,400 Watching for file changes with StatReloader
+INFO 2023-04-16 21:24:48,988 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:24:50,703 Watching for file changes with StatReloader
+INFO 2023-04-16 21:24:52,206 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:24:53,412 Watching for file changes with StatReloader
+INFO 2023-04-16 21:24:57,058 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:24:58,039 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:02,763 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:03,872 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:07,461 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:08,490 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:13,084 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:14,184 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:18,741 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:19,860 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:25,534 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:26,675 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:31,526 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:32,734 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:34,174 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:35,172 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:38,737 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:40,654 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:46,555 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:48,286 Watching for file changes with StatReloader
+INFO 2023-04-16 21:25:54,257 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:25:55,317 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:04,338 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:05,317 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:09,823 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:10,923 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:12,738 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:13,731 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:24,469 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:25,581 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:30,640 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:31,792 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:33,639 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:34,652 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:37,474 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:38,612 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:42,467 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:43,595 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:45,098 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:46,326 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:50,776 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:52,059 Watching for file changes with StatReloader
+INFO 2023-04-16 21:26:56,633 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:26:57,911 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:02,451 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:03,534 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:10,307 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:11,370 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:13,124 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:14,199 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:16,962 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:18,282 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:20,069 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:21,207 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:27,175 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:28,403 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:29,925 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:30,952 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:33,380 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:34,630 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:39,135 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:40,334 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:42,746 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:43,739 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:46,444 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:47,534 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:51,085 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:52,297 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:53,780 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:54,927 Watching for file changes with StatReloader
+INFO 2023-04-16 21:27:56,587 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:27:57,849 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:01,318 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:02,342 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:15,463 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:16,600 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:22,284 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:23,453 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:28,350 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:29,416 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:31,009 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:32,035 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:42,939 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:43,975 Watching for file changes with StatReloader
+INFO 2023-04-16 21:28:53,594 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:28:54,730 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:04,466 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:05,575 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:10,183 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:11,486 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:13,395 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:14,478 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:20,057 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:21,205 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:26,787 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:27,895 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:29,441 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:30,802 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:34,413 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:35,551 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:43,147 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:44,202 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:47,667 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:48,706 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:51,152 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:52,264 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:53,737 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:54,796 Watching for file changes with StatReloader
+INFO 2023-04-16 21:29:57,210 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:29:58,302 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:04,222 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:05,225 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:10,746 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:11,758 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:19,359 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:20,543 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:23,998 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:25,192 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:27,534 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:28,589 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:30,972 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:32,030 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:36,609 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:37,862 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:39,210 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:40,163 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:42,514 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:43,533 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:46,079 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:47,068 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:49,468 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:50,452 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:52,821 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:53,857 Watching for file changes with StatReloader
+INFO 2023-04-16 21:30:56,272 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:30:57,337 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:01,922 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:02,919 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:04,394 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:05,432 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:07,814 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:08,803 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:13,372 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:14,510 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:17,060 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:18,722 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:21,173 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:22,117 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:31,720 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:32,989 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:39,767 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:40,912 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:44,602 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:45,659 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:48,082 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:49,205 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:50,592 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:51,659 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:53,103 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:54,215 Watching for file changes with StatReloader
+INFO 2023-04-16 21:31:55,612 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:31:56,644 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:00,486 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:01,778 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:03,351 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:04,563 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:07,058 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:08,406 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:09,765 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:10,832 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:13,340 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:14,530 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:22,678 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:23,876 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:27,799 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:29,021 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:37,030 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:38,114 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:45,203 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:46,347 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:48,290 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:49,299 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:51,727 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:53,017 Watching for file changes with StatReloader
+INFO 2023-04-16 21:32:58,062 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:32:59,214 Watching for file changes with StatReloader
+INFO 2023-04-16 21:38:38,370 "POST /nurses HTTP/1.1" 200 7735
+INFO 2023-04-16 21:40:03,362 "GET /nurses HTTP/1.1" 200 7735
+INFO 2023-04-16 21:40:27,954 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:40:29,033 Watching for file changes with StatReloader
+INFO 2023-04-16 21:40:30,658 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:40:31,648 Watching for file changes with StatReloader
+INFO 2023-04-16 21:40:36,374 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:40:37,438 Watching for file changes with StatReloader
+INFO 2023-04-16 21:40:39,367 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:40:40,633 Watching for file changes with StatReloader
+INFO 2023-04-16 21:40:54,711 "GET /nurses HTTP/1.1" 200 7735
+INFO 2023-04-16 21:41:04,720 "POST /nurses HTTP/1.1" 200 7996
+INFO 2023-04-16 21:41:29,019 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-16 21:41:30,320 Watching for file changes with StatReloader
+INFO 2023-04-16 21:42:16,318 "POST /nurses HTTP/1.1" 200 8389
+INFO 2023-04-16 21:43:51,862 "POST /nurses HTTP/1.1" 200 8571
+INFO 2023-04-16 21:44:22,683 "POST /nurses HTTP/1.1" 200 8725
+INFO 2023-04-16 21:47:50,080 "POST /nurses HTTP/1.1" 200 9059
+INFO 2023-04-16 21:48:01,864 "POST /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:48:27,526 "GET /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:48:31,672 "GET /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:48:33,042 "GET /nurses HTTP/1.1" 200 9323
+WARNING 2023-04-16 21:48:57,036 Not Found: /index.html
+WARNING 2023-04-16 21:48:57,037 "GET /index.html HTTP/1.1" 404 2463
+INFO 2023-04-16 21:51:27,009 "GET /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:51:28,628 "GET /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:51:29,840 "GET /nurses HTTP/1.1" 200 9323
+INFO 2023-04-16 21:51:31,837 "GET /nurses HTTP/1.1" 200 9323

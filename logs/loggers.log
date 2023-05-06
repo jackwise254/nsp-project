@@ -1,0 +1,1478 @@
+INFO 2023-04-18 17:45:52,382 Watching for file changes with StatReloader
+INFO 2023-04-18 17:46:00,758 Watching for file changes with StatReloader
+INFO 2023-04-18 17:46:07,835 "POST /shifts HTTP/1.1" 200 15403
+INFO 2023-04-18 17:46:21,028 "POST /shifts HTTP/1.1" 200 15677
+INFO 2023-04-18 17:46:25,057 "POST /shifts HTTP/1.1" 200 15951
+INFO 2023-04-18 17:46:29,299 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:30,552 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:31,398 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:46,616 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:48,818 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:54,608 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:56,134 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:46:57,759 "GET /shifts HTTP/1.1" 200 15816
+INFO 2023-04-18 17:47:27,311 "GET /shifts HTTP/1.1" 200 15816
+WARNING 2023-04-18 17:47:29,498 Not Found: /index.html
+WARNING 2023-04-18 17:47:29,499 "GET /index.html HTTP/1.1" 404 2631
+INFO 2023-04-18 17:47:34,097 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-18 17:47:36,162 "GET /nurses HTTP/1.1" 200 9320
+INFO 2023-04-18 17:49:15,119 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-18 17:49:17,191 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:18,786 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-18 17:49:20,783 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:22,537 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-18 17:49:24,808 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:26,764 C:\Users\EliteBook\nspSystem\backend\urls.py changed, reloading.
+INFO 2023-04-18 17:49:28,856 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:38,762 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-18 17:49:40,540 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:42,937 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-18 17:49:44,679 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:47,302 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-18 17:49:49,204 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:51,624 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-18 17:49:53,312 Watching for file changes with StatReloader
+INFO 2023-04-18 17:49:59,880 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-18 17:50:01,600 Watching for file changes with StatReloader
+INFO 2023-04-19 09:00:00,047 "GET /nurses HTTP/1.1" 200 9320
+INFO 2023-04-19 09:00:00,121 "GET /static/styles/style.css HTTP/1.1" 304 0
+INFO 2023-04-19 09:00:04,427 "GET /shifts HTTP/1.1" 200 15813
+INFO 2023-04-19 09:00:10,219 "GET /shifts HTTP/1.1" 200 15813
+INFO 2023-04-19 09:00:12,576 "GET /shifts HTTP/1.1" 200 15813
+INFO 2023-04-19 09:00:43,378 "GET /shifts HTTP/1.1" 200 15815
+INFO 2023-04-19 09:13:12,654 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-19 09:13:15,788 Watching for file changes with StatReloader
+INFO 2023-04-19 09:13:21,723 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-19 09:13:23,990 Watching for file changes with StatReloader
+INFO 2023-04-19 20:38:15,388 "GET /static/styles/style.css HTTP/1.1" 304 0
+INFO 2023-04-19 21:41:50,365 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-19 21:42:18,698 "GET /nurses HTTP/1.1" 200 9320
+INFO 2023-04-19 21:42:49,225 "GET /shifts HTTP/1.1" 200 15815
+INFO 2023-04-20 08:56:17,654 "GET /static/styles/style.css HTTP/1.1" 304 0
+INFO 2023-04-20 08:57:26,246 Watching for file changes with StatReloader
+INFO 2023-04-20 08:57:38,926 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 08:58:29,684 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 08:58:32,841 Watching for file changes with StatReloader
+INFO 2023-04-20 09:02:11,394 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 09:02:19,072 "GET /shifts HTTP/1.1" 200 15815
+ERROR 2023-04-20 09:02:31,275 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 80, in SchduleView
+    shifts = sorted(shifts, key=lambda x: x.priority)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 80, in <lambda>
+    shifts = sorted(shifts, key=lambda x: x.priority)
+AttributeError: 'Shifts' object has no attribute 'priority'
+ERROR 2023-04-20 09:02:31,278 "GET /schedule HTTP/1.1" 500 75210
+INFO 2023-04-20 09:03:42,670 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:03:45,932 Watching for file changes with StatReloader
+ERROR 2023-04-20 09:04:03,974 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in SchduleView
+    for nurse in sorted(nurses, key=lambda x: x.skill_level, reverse=True):
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in <lambda>
+    for nurse in sorted(nurses, key=lambda x: x.skill_level, reverse=True):
+AttributeError: 'Nurses' object has no attribute 'skill_level'
+ERROR 2023-04-20 09:04:03,976 "GET /schedule HTTP/1.1" 500 75985
+INFO 2023-04-20 09:04:14,482 "GET /nurses HTTP/1.1" 200 9320
+INFO 2023-04-20 09:05:39,342 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:05:43,971 Watching for file changes with StatReloader
+INFO 2023-04-20 09:05:46,571 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:05:50,587 Watching for file changes with StatReloader
+INFO 2023-04-20 09:06:06,458 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:06:09,602 Watching for file changes with StatReloader
+INFO 2023-04-20 09:06:12,148 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:06:15,222 Watching for file changes with StatReloader
+INFO 2023-04-20 09:07:07,372 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:07:11,706 Watching for file changes with StatReloader
+INFO 2023-04-20 09:07:14,156 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:07:18,600 Watching for file changes with StatReloader
+INFO 2023-04-20 09:07:44,449 "GET /nurses HTTP/1.1" 200 9320
+INFO 2023-04-20 09:08:35,336 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 09:08:39,577 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 09:09:16,409 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:09:19,336 Watching for file changes with StatReloader
+INFO 2023-04-20 09:11:07,240 "GET /shifts HTTP/1.1" 200 15815
+INFO 2023-04-20 09:11:31,801 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:11:35,305 Watching for file changes with StatReloader
+INFO 2023-04-20 09:11:42,286 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:11:44,621 Watching for file changes with StatReloader
+INFO 2023-04-20 09:11:50,569 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:11:54,104 Watching for file changes with StatReloader
+INFO 2023-04-20 09:11:57,259 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:12:00,174 Watching for file changes with StatReloader
+INFO 2023-04-20 09:13:04,043 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:13:08,461 Watching for file changes with StatReloader
+INFO 2023-04-20 09:13:18,154 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:13:21,221 Watching for file changes with StatReloader
+INFO 2023-04-20 09:13:33,881 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:13:37,823 Watching for file changes with StatReloader
+INFO 2023-04-20 09:14:16,254 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 09:14:19,972 Watching for file changes with StatReloader
+INFO 2023-04-20 09:14:51,286 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 09:14:54,477 Watching for file changes with StatReloader
+INFO 2023-04-20 09:15:08,169 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 09:15:12,418 Watching for file changes with StatReloader
+INFO 2023-04-20 09:15:14,280 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 09:15:17,413 Watching for file changes with StatReloader
+INFO 2023-04-20 09:15:22,306 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 09:15:24,775 Watching for file changes with StatReloader
+INFO 2023-04-20 09:17:24,620 Watching for file changes with StatReloader
+INFO 2023-04-20 09:20:50,942 Watching for file changes with StatReloader
+INFO 2023-04-20 09:23:55,377 Watching for file changes with StatReloader
+INFO 2023-04-20 09:24:15,470 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:24:18,333 Watching for file changes with StatReloader
+INFO 2023-04-20 09:24:34,288 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:24:36,756 Watching for file changes with StatReloader
+INFO 2023-04-20 09:24:57,784 "GET /shifts HTTP/1.1" 200 19010
+ERROR 2023-04-20 09:25:03,679 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 87, in SchduleView
+    if nurse.available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+AttributeError: 'Nurses' object has no attribute 'available'
+ERROR 2023-04-20 09:25:03,681 "GET /schedule HTTP/1.1" 500 72171
+INFO 2023-04-20 09:26:15,823 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:26:18,544 Watching for file changes with StatReloader
+ERROR 2023-04-20 09:26:21,807 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 87, in SchduleView
+    if nurse.hours_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+TypeError: 'int' object is not callable
+ERROR 2023-04-20 09:26:21,810 "GET /schedule HTTP/1.1" 500 72186
+INFO 2023-04-20 09:30:02,739 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:30:06,586 Watching for file changes with StatReloader
+INFO 2023-04-20 09:30:24,929 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:30:27,671 Watching for file changes with StatReloader
+INFO 2023-04-20 09:30:31,020 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:30:34,308 Watching for file changes with StatReloader
+INFO 2023-04-20 09:30:36,626 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:30:39,178 Watching for file changes with StatReloader
+INFO 2023-04-20 09:30:41,514 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:30:44,810 Watching for file changes with StatReloader
+INFO 2023-04-20 09:30:57,850 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:31:01,093 Watching for file changes with StatReloader
+INFO 2023-04-20 09:32:32,731 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 09:32:36,513 Watching for file changes with StatReloader
+INFO 2023-04-20 09:32:51,620 "GET /shifts HTTP/1.1" 200 19010
+INFO 2023-04-20 09:34:42,189 "POST /shifts HTTP/1.1" 200 19506
+INFO 2023-04-20 09:34:57,752 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 09:35:02,143 "GET /nurses HTTP/1.1" 200 9306
+WARNING 2023-04-20 09:35:25,086 Not Found: /index.html
+WARNING 2023-04-20 09:35:25,087 "GET /index.html HTTP/1.1" 404 2803
+INFO 2023-04-20 09:35:29,742 "GET /shifts HTTP/1.1" 200 19314
+ERROR 2023-04-20 09:35:30,448 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 104, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+AttributeError: 'Nurses' object has no attribute 'is_available'
+ERROR 2023-04-20 09:35:30,450 "GET /schedule HTTP/1.1" 500 72698
+INFO 2023-04-20 09:38:36,289 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:38:40,171 Watching for file changes with StatReloader
+INFO 2023-04-20 09:38:59,850 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:39:03,054 Watching for file changes with StatReloader
+INFO 2023-04-20 09:39:05,725 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:39:08,988 Watching for file changes with StatReloader
+INFO 2023-04-20 09:39:27,131 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:39:30,763 Watching for file changes with StatReloader
+INFO 2023-04-20 09:39:58,665 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:40:01,596 Watching for file changes with StatReloader
+INFO 2023-04-20 09:40:04,401 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:40:07,283 Watching for file changes with StatReloader
+INFO 2023-04-20 09:40:37,926 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:40:41,663 Watching for file changes with StatReloader
+INFO 2023-04-20 09:40:52,569 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:40:55,606 Watching for file changes with StatReloader
+INFO 2023-04-20 09:40:58,127 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:41:02,099 Watching for file changes with StatReloader
+INFO 2023-04-20 09:42:28,615 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:42:32,749 Watching for file changes with StatReloader
+INFO 2023-04-20 09:43:56,970 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:43:59,889 Watching for file changes with StatReloader
+INFO 2023-04-20 09:44:05,002 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:44:08,494 Watching for file changes with StatReloader
+INFO 2023-04-20 09:45:00,512 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 09:45:03,720 Watching for file changes with StatReloader
+INFO 2023-04-20 10:02:52,698 Watching for file changes with StatReloader
+INFO 2023-04-20 10:02:58,763 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:03:43,337 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 10:03:51,072 "GET /shifts HTTP/1.1" 200 19314
+ERROR 2023-04-20 10:03:52,976 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 104, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+  File "C:\Users\EliteBook\nspSystem\backend\models.py", line 36, in is_available
+    start = datetime.strptime(start, '%Y-%m-%dT%H:%M:%S')
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '7' does not match format '%Y-%m-%dT%H:%M:%S'
+ERROR 2023-04-20 10:03:52,983 "GET /schedule HTTP/1.1" 500 86283
+INFO 2023-04-20 10:06:46,763 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:06:49,109 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 10:07:06,005 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 10:07:10,421 Watching for file changes with StatReloader
+INFO 2023-04-20 10:07:23,069 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 10:07:26,272 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 10:07:39,722 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 10:07:41,820 "GET /shifts HTTP/1.1" 200 19314
+ERROR 2023-04-20 10:07:44,081 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 104, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+  File "C:\Users\EliteBook\nspSystem\backend\models.py", line 36, in is_available
+    start = datetime.strptime(start, '%Y-%m-%dT%H:%M:%S')
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '7' does not match format '%Y-%m-%dT%H:%M:%S'
+ERROR 2023-04-20 10:07:44,085 "GET /schedule HTTP/1.1" 500 86283
+INFO 2023-04-20 10:08:43,581 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 10:08:45,886 Watching for file changes with StatReloader
+ERROR 2023-04-20 10:09:03,201 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 82, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+  File "C:\Users\EliteBook\nspSystem\backend\models.py", line 36, in is_available
+    start = datetime.strptime(start, '%Y-%m-%dT%H:%M:%S')
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '7' does not match format '%Y-%m-%dT%H:%M:%S'
+ERROR 2023-04-20 10:09:03,211 "GET /schedule HTTP/1.1" 500 85948
+INFO 2023-04-20 10:11:57,073 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 10:12:01,218 Watching for file changes with StatReloader
+INFO 2023-04-20 10:12:24,108 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:12:27,303 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:12:30,148 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:12:33,012 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:12:35,918 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 10:13:55,424 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 10:13:59,310 Watching for file changes with StatReloader
+INFO 2023-04-20 10:14:56,298 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 10:14:59,953 Watching for file changes with StatReloader
+ERROR 2023-04-20 10:15:06,061 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 82, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+  File "C:\Users\EliteBook\nspSystem\backend\models.py", line 47, in is_available
+    end = datetime.fromisoformat(end)
+ValueError: Invalid isoformat string: '-04:002023-04-20T15:00:00'
+ERROR 2023-04-20 10:15:06,064 "GET /schedule HTTP/1.1" 500 76545
+ERROR 2023-04-20 11:24:51,675 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 82, in SchduleView
+    if nurse.is_available(shift.timeinterval) and nurse.can_work(shift.shifttype):
+  File "C:\Users\EliteBook\nspSystem\backend\models.py", line 47, in is_available
+    end = datetime.fromisoformat(end)
+ValueError: Invalid isoformat string: '-04:002023-04-20T15:00:00'
+ERROR 2023-04-20 11:24:51,677 "GET /schedule HTTP/1.1" 500 76525
+INFO 2023-04-20 11:26:03,840 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 11:26:07,341 Watching for file changes with StatReloader
+INFO 2023-04-20 11:26:10,520 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 11:26:13,447 Watching for file changes with StatReloader
+ERROR 2023-04-20 11:26:21,563 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 98, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: nurses/schedule.html
+ERROR 2023-04-20 11:26:21,565 "GET /schedule HTTP/1.1" 500 87654
+INFO 2023-04-20 11:27:02,088 "GET /schedule HTTP/1.1" 200 0
+INFO 2023-04-20 11:27:20,005 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:27:23,498 Watching for file changes with StatReloader
+INFO 2023-04-20 11:27:29,012 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:27:32,471 Watching for file changes with StatReloader
+INFO 2023-04-20 11:27:33,727 "GET /schedule HTTP/1.1" 200 0
+INFO 2023-04-20 11:28:36,355 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:28:39,830 Watching for file changes with StatReloader
+INFO 2023-04-20 11:29:02,061 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:29:04,674 Watching for file changes with StatReloader
+INFO 2023-04-20 11:29:58,619 "GET /schedule HTTP/1.1" 200 7997
+INFO 2023-04-20 11:30:56,698 "GET /schedule HTTP/1.1" 200 8310
+INFO 2023-04-20 11:32:34,171 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:32:49,840 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:32:52,143 Watching for file changes with StatReloader
+INFO 2023-04-20 11:33:17,414 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:36:35,769 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 11:36:46,219 "GET /nurses HTTP/1.1" 200 9306
+INFO 2023-04-20 11:36:49,572 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 11:36:53,548 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:37:35,105 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:37:37,437 Watching for file changes with StatReloader
+INFO 2023-04-20 11:37:42,269 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:38:09,171 Watching for file changes with StatReloader
+INFO 2023-04-20 11:38:19,510 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:38:32,999 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:38:36,176 Watching for file changes with StatReloader
+INFO 2023-04-20 11:38:36,724 "GET /shifts HTTP/1.1" 200 19314
+INFO 2023-04-20 11:38:38,758 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:38:56,170 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:38:59,067 Watching for file changes with StatReloader
+INFO 2023-04-20 11:39:08,362 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:39:31,574 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:39:34,473 Watching for file changes with StatReloader
+INFO 2023-04-20 11:39:36,490 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:39:39,221 Watching for file changes with StatReloader
+INFO 2023-04-20 11:39:41,477 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:39:44,216 Watching for file changes with StatReloader
+INFO 2023-04-20 11:39:48,302 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:39:51,386 Watching for file changes with StatReloader
+INFO 2023-04-20 11:39:54,613 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:39:57,220 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:06,255 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:10,591 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:40:29,018 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:40:32,308 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:36,524 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:40:39,597 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:42,991 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:40:45,725 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:48,876 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:40:52,817 Watching for file changes with StatReloader
+INFO 2023-04-20 11:40:58,578 "GET /schedule HTTP/1.1" 200 8079
+INFO 2023-04-20 11:41:27,356 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:41:30,507 Watching for file changes with StatReloader
+INFO 2023-04-20 11:48:21,317 C:\Users\EliteBook\nspSystem\nspSystem\settings.py changed, reloading.
+INFO 2023-04-20 11:48:29,092 Watching for file changes with StatReloader
+ERROR 2023-04-20 11:50:07,383 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'environ.backend_nurses' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 45, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'environ.backend_nurses' doesn't exist")
+ERROR 2023-04-20 11:50:07,395 "GET /nurses HTTP/1.1" 500 205551
+INFO 2023-04-20 11:50:43,321 Watching for file changes with StatReloader
+INFO 2023-04-20 11:50:47,755 "GET /nurses HTTP/1.1" 200 7472
+INFO 2023-04-20 11:50:51,069 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 11:50:52,472 "GET /nurses HTTP/1.1" 200 7472
+INFO 2023-04-20 11:50:54,000 "GET /shifts HTTP/1.1" 200 15425
+INFO 2023-04-20 11:50:55,663 "GET /schedule HTTP/1.1" 200 6252
+INFO 2023-04-20 11:50:58,207 "GET /nurses HTTP/1.1" 200 7472
+INFO 2023-04-20 11:51:08,165 "GET /shifts HTTP/1.1" 200 15425
+INFO 2023-04-20 11:51:14,832 "GET /nurses HTTP/1.1" 200 7472
+INFO 2023-04-20 11:53:55,901 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 11:53:59,623 Watching for file changes with StatReloader
+INFO 2023-04-20 11:54:02,678 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 11:54:06,342 Watching for file changes with StatReloader
+INFO 2023-04-20 11:54:15,036 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 11:54:17,786 Watching for file changes with StatReloader
+INFO 2023-04-20 11:54:20,414 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 11:54:23,543 Watching for file changes with StatReloader
+INFO 2023-04-20 11:54:51,649 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:54:55,827 Watching for file changes with StatReloader
+INFO 2023-04-20 11:55:00,260 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:55:02,917 Watching for file changes with StatReloader
+INFO 2023-04-20 11:55:06,077 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:55:09,634 Watching for file changes with StatReloader
+INFO 2023-04-20 11:55:26,496 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:55:29,540 Watching for file changes with StatReloader
+INFO 2023-04-20 11:55:31,389 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:55:33,977 Watching for file changes with StatReloader
+INFO 2023-04-20 11:55:49,839 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 11:55:53,308 Watching for file changes with StatReloader
+INFO 2023-04-20 11:57:00,235 "GET /nurses HTTP/1.1" 200 8834
+ERROR 2023-04-20 12:02:18,693 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 180, in select_template
+    raise TemplateDoesNotExist(', '.join(not_found))
+django.template.exceptions.TemplateDoesNotExist: form_snippet.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 47, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: form_snippet.html
+ERROR 2023-04-20 12:02:18,702 "GET /nurses HTTP/1.1" 500 133110
+INFO 2023-04-20 12:02:47,483 "GET /nurses HTTP/1.1" 200 11642
+INFO 2023-04-20 12:03:43,316 "GET /nurses HTTP/1.1" 200 11651
+INFO 2023-04-20 12:04:55,059 "GET /nurses HTTP/1.1" 200 11723
+INFO 2023-04-20 12:06:47,668 "GET /nurses HTTP/1.1" 200 12652
+INFO 2023-04-20 12:08:29,692 "GET /nurses HTTP/1.1" 200 13913
+INFO 2023-04-20 12:09:08,446 "GET /nurses HTTP/1.1" 200 11651
+INFO 2023-04-20 12:13:43,413 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:13:47,252 Watching for file changes with StatReloader
+INFO 2023-04-20 12:14:05,853 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:14:09,431 Watching for file changes with StatReloader
+INFO 2023-04-20 12:14:14,755 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:14:17,687 Watching for file changes with StatReloader
+INFO 2023-04-20 12:14:23,465 "GET /nurses HTTP/1.1" 200 10829
+INFO 2023-04-20 12:15:30,887 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:15:33,828 Watching for file changes with StatReloader
+INFO 2023-04-20 12:15:37,070 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:15:40,371 Watching for file changes with StatReloader
+INFO 2023-04-20 12:15:44,674 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:15:47,623 Watching for file changes with StatReloader
+INFO 2023-04-20 12:15:48,108 "GET /nurses HTTP/1.1" 200 9946
+INFO 2023-04-20 12:16:06,993 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:16:10,070 Watching for file changes with StatReloader
+INFO 2023-04-20 12:16:17,456 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:16:20,037 Watching for file changes with StatReloader
+INFO 2023-04-20 12:16:24,347 "GET /nurses HTTP/1.1" 200 10949
+INFO 2023-04-20 12:16:48,721 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:16:52,131 Watching for file changes with StatReloader
+INFO 2023-04-20 12:16:57,529 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:17:00,500 Watching for file changes with StatReloader
+INFO 2023-04-20 12:17:00,941 "GET /nurses HTTP/1.1" 200 10591
+INFO 2023-04-20 12:17:40,369 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:17:43,229 Watching for file changes with StatReloader
+INFO 2023-04-20 12:17:50,215 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:17:54,021 Watching for file changes with StatReloader
+INFO 2023-04-20 12:17:58,778 "GET /nurses HTTP/1.1" 200 11413
+INFO 2023-04-20 12:20:32,826 C:\Users\EliteBook\nspSystem\nspSystem\settings.py changed, reloading.
+INFO 2023-04-20 12:20:35,580 Watching for file changes with StatReloader
+INFO 2023-04-20 12:20:52,604 C:\Users\EliteBook\nspSystem\nspSystem\settings.py changed, reloading.
+INFO 2023-04-20 12:20:54,933 Watching for file changes with StatReloader
+INFO 2023-04-20 12:25:42,837 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:25:46,232 Watching for file changes with StatReloader
+INFO 2023-04-20 12:25:46,960 "GET /nurses HTTP/1.1" 200 11413
+INFO 2023-04-20 12:26:07,896 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:26:10,841 Watching for file changes with StatReloader
+INFO 2023-04-20 12:28:19,964 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:28:23,474 Watching for file changes with StatReloader
+INFO 2023-04-20 12:28:47,062 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:28:50,445 Watching for file changes with StatReloader
+INFO 2023-04-20 12:29:05,533 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:29:09,480 Watching for file changes with StatReloader
+INFO 2023-04-20 12:29:21,813 "GET /nurses HTTP/1.1" 200 11293
+INFO 2023-04-20 12:30:24,000 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:30:27,406 Watching for file changes with StatReloader
+INFO 2023-04-20 12:30:43,567 "GET /nurses HTTP/1.1" 200 11413
+INFO 2023-04-20 12:31:10,101 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:31:13,262 Watching for file changes with StatReloader
+INFO 2023-04-20 12:33:39,215 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:33:41,406 Watching for file changes with StatReloader
+INFO 2023-04-20 12:33:46,518 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:33:49,145 Watching for file changes with StatReloader
+INFO 2023-04-20 12:34:13,735 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:34:17,225 Watching for file changes with StatReloader
+INFO 2023-04-20 12:34:20,407 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:34:23,372 Watching for file changes with StatReloader
+INFO 2023-04-20 12:34:32,215 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:34:34,302 Watching for file changes with StatReloader
+INFO 2023-04-20 12:36:30,685 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:36:33,342 Watching for file changes with StatReloader
+INFO 2023-04-20 12:36:36,970 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:36:39,492 Watching for file changes with StatReloader
+INFO 2023-04-20 12:45:54,787 "GET /nurses HTTP/1.1" 200 11413
+INFO 2023-04-20 12:46:21,447 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:46:25,874 Watching for file changes with StatReloader
+INFO 2023-04-20 12:46:37,118 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:46:41,392 Watching for file changes with StatReloader
+INFO 2023-04-20 12:46:45,250 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:46:49,329 Watching for file changes with StatReloader
+INFO 2023-04-20 12:46:51,560 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:46:53,861 Watching for file changes with StatReloader
+INFO 2023-04-20 12:47:13,013 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:47:15,656 Watching for file changes with StatReloader
+INFO 2023-04-20 12:47:36,434 "GET /nurses HTTP/1.1" 200 11413
+INFO 2023-04-20 12:48:48,533 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:48:52,256 Watching for file changes with StatReloader
+INFO 2023-04-20 12:49:29,523 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:49:33,159 Watching for file changes with StatReloader
+INFO 2023-04-20 12:49:37,495 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:49:40,838 Watching for file changes with StatReloader
+INFO 2023-04-20 12:49:43,490 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:49:49,648 Watching for file changes with StatReloader
+INFO 2023-04-20 12:49:52,120 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:49:54,735 Watching for file changes with StatReloader
+INFO 2023-04-20 12:50:04,855 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:50:08,274 Watching for file changes with StatReloader
+INFO 2023-04-20 12:50:14,201 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:50:17,173 Watching for file changes with StatReloader
+INFO 2023-04-20 12:50:21,335 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:50:25,732 Watching for file changes with StatReloader
+ERROR 2023-04-20 12:50:43,704 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'backend_nurses.available_days_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 47, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'backend_nurses.available_days_id' in 'field list'")
+ERROR 2023-04-20 12:50:43,718 "GET /nurses HTTP/1.1" 500 207750
+INFO 2023-04-20 12:51:47,970 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:51:50,707 Watching for file changes with StatReloader
+ERROR 2023-04-20 12:51:53,484 Internal Server Error: /nurses
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.OperationalError: (1054, "Unknown column 'backend_nurses.available_days_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 47, in NurseView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 171, in render
+    len_values = len(values)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 79, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'backend_nurses.available_days_id' in 'field list'")
+ERROR 2023-04-20 12:51:53,497 "GET /nurses HTTP/1.1" 500 207750
+INFO 2023-04-20 12:52:57,386 Watching for file changes with StatReloader
+INFO 2023-04-20 12:53:01,583 "GET /nurses HTTP/1.1" 200 12025
+INFO 2023-04-20 12:55:37,396 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:55:40,223 Watching for file changes with StatReloader
+INFO 2023-04-20 12:55:58,378 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:56:02,388 Watching for file changes with StatReloader
+INFO 2023-04-20 12:56:11,627 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 12:56:14,642 Watching for file changes with StatReloader
+INFO 2023-04-20 12:58:51,495 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:58:55,237 Watching for file changes with StatReloader
+INFO 2023-04-20 12:59:03,053 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 12:59:06,484 Watching for file changes with StatReloader
+INFO 2023-04-20 12:59:17,787 "GET /nurses HTTP/1.1" 200 13486
+INFO 2023-04-20 13:00:04,631 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:00:08,600 Watching for file changes with StatReloader
+INFO 2023-04-20 13:00:10,028 "GET /nurses HTTP/1.1" 200 13486
+INFO 2023-04-20 13:00:18,976 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:00:22,422 Watching for file changes with StatReloader
+INFO 2023-04-20 13:04:39,083 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 13:04:43,550 Watching for file changes with StatReloader
+INFO 2023-04-20 13:05:12,097 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:05:15,415 Watching for file changes with StatReloader
+INFO 2023-04-20 13:05:20,813 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:05:24,200 Watching for file changes with StatReloader
+INFO 2023-04-20 13:05:25,533 "GET /nurses HTTP/1.1" 200 11947
+INFO 2023-04-20 13:06:30,502 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:06:34,013 Watching for file changes with StatReloader
+INFO 2023-04-20 13:06:36,307 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:06:39,920 Watching for file changes with StatReloader
+INFO 2023-04-20 13:07:00,160 "GET /nurses HTTP/1.1" 200 11925
+INFO 2023-04-20 13:07:27,567 "POST /nurses HTTP/1.1" 200 11925
+INFO 2023-04-20 13:08:07,858 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:08:10,458 Watching for file changes with StatReloader
+INFO 2023-04-20 13:08:29,088 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:08:33,199 Watching for file changes with StatReloader
+INFO 2023-04-20 13:08:39,302 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:08:42,991 Watching for file changes with StatReloader
+INFO 2023-04-20 13:08:49,384 "POST /nurses HTTP/1.1" 200 8194
+INFO 2023-04-20 13:09:25,996 "POST /nurses HTTP/1.1" 200 8453
+INFO 2023-04-20 13:12:30,608 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:12:34,421 Watching for file changes with StatReloader
+INFO 2023-04-20 13:13:35,543 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 13:13:38,002 Watching for file changes with StatReloader
+INFO 2023-04-20 13:14:04,712 "POST /nurses HTTP/1.1" 200 8744
+INFO 2023-04-20 13:15:34,313 "POST /nurses HTTP/1.1" 200 9127
+INFO 2023-04-20 13:15:47,014 "GET /nurses HTTP/1.1" 200 9127
+INFO 2023-04-20 13:15:58,211 "GET /nurses HTTP/1.1" 200 9127
+INFO 2023-04-20 13:17:42,962 "GET /nurses HTTP/1.1" 200 9680
+INFO 2023-04-20 13:18:22,621 "GET /nurses HTTP/1.1" 200 9896
+INFO 2023-04-20 13:19:41,477 "GET /nurses HTTP/1.1" 200 8784
+INFO 2023-04-20 13:20:14,654 "POST /nurses HTTP/1.1" 200 8784
+INFO 2023-04-20 13:20:18,558 "GET /nurses HTTP/1.1" 200 8784
+INFO 2023-04-20 13:20:24,007 "GET /nurses HTTP/1.1" 200 8784
+INFO 2023-04-20 13:20:55,665 "POST /nurses HTTP/1.1" 200 9339
+INFO 2023-04-20 13:21:00,774 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 13:21:02,311 "GET /nurses HTTP/1.1" 200 9339
+INFO 2023-04-20 13:21:29,009 "GET /nurses HTTP/1.1" 200 9393
+INFO 2023-04-20 13:21:44,110 "GET /nurses HTTP/1.1" 200 9393
+INFO 2023-04-20 13:21:59,937 "GET /shifts HTTP/1.1" 200 16139
+INFO 2023-04-20 13:24:17,639 "POST /shifts HTTP/1.1" 200 16623
+INFO 2023-04-20 13:24:31,345 "GET /shifts HTTP/1.1" 200 16437
+INFO 2023-04-20 13:24:50,211 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:26:41,722 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:26:45,835 Watching for file changes with StatReloader
+INFO 2023-04-20 13:26:58,621 "GET /shifts HTTP/1.1" 200 16438
+INFO 2023-04-20 13:28:38,598 "POST /shifts HTTP/1.1" 200 16612
+INFO 2023-04-20 13:30:20,749 "GET /shifts HTTP/1.1" 200 16501
+INFO 2023-04-20 13:30:27,178 "GET /shifts HTTP/1.1" 200 16501
+INFO 2023-04-20 13:32:28,833 "POST /shifts HTTP/1.1" 200 16681
+INFO 2023-04-20 13:35:34,421 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 13:35:37,790 Watching for file changes with StatReloader
+INFO 2023-04-20 13:37:24,292 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:37:27,887 Watching for file changes with StatReloader
+INFO 2023-04-20 13:37:30,572 "POST /shifts HTTP/1.1" 200 16681
+INFO 2023-04-20 13:37:50,357 Watching for file changes with StatReloader
+INFO 2023-04-20 13:37:56,117 "POST /shifts HTTP/1.1" 200 16681
+INFO 2023-04-20 13:41:12,490 "POST /shifts HTTP/1.1" 200 17093
+INFO 2023-04-20 13:41:24,899 "POST /shifts HTTP/1.1" 200 18417
+INFO 2023-04-20 13:42:23,973 "POST /shifts HTTP/1.1" 200 8157
+INFO 2023-04-20 13:43:09,498 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:43:12,760 Watching for file changes with StatReloader
+INFO 2023-04-20 13:43:15,003 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:43:18,096 Watching for file changes with StatReloader
+INFO 2023-04-20 13:43:19,139 "POST /shifts HTTP/1.1" 200 8454
+INFO 2023-04-20 13:43:33,143 "GET /nurses HTTP/1.1" 200 9393
+INFO 2023-04-20 13:43:37,718 "GET /shifts HTTP/1.1" 200 8424
+INFO 2023-04-20 13:44:24,128 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:44:29,223 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:44:54,280 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:44:57,536 Watching for file changes with StatReloader
+INFO 2023-04-20 13:47:14,620 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:47:17,282 Watching for file changes with StatReloader
+INFO 2023-04-20 13:47:37,590 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:47:39,494 Watching for file changes with StatReloader
+INFO 2023-04-20 13:48:49,839 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:48:52,734 Watching for file changes with StatReloader
+INFO 2023-04-20 13:48:54,857 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:48:57,241 Watching for file changes with StatReloader
+INFO 2023-04-20 13:48:59,169 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:49:01,373 Watching for file changes with StatReloader
+INFO 2023-04-20 13:49:04,363 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:49:06,609 Watching for file changes with StatReloader
+INFO 2023-04-20 13:49:12,476 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:50:02,651 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:05,561 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:15,277 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:17,731 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:19,731 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:22,063 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:25,284 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:27,715 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:30,491 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:32,798 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:34,715 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:37,126 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:39,205 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:41,432 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:43,290 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:45,361 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:52,338 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:50:54,652 Watching for file changes with StatReloader
+INFO 2023-04-20 13:50:59,244 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:51:15,696 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:51:17,904 Watching for file changes with StatReloader
+INFO 2023-04-20 13:51:20,958 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:51:22,872 Watching for file changes with StatReloader
+INFO 2023-04-20 13:51:33,472 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:51:35,706 Watching for file changes with StatReloader
+INFO 2023-04-20 13:51:38,559 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:51:40,997 Watching for file changes with StatReloader
+INFO 2023-04-20 13:51:44,062 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:51:46,666 Watching for file changes with StatReloader
+INFO 2023-04-20 13:51:47,932 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 13:51:58,706 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:52:01,587 Watching for file changes with StatReloader
+INFO 2023-04-20 13:52:08,144 "GET /shifts HTTP/1.1" 200 8425
+INFO 2023-04-20 13:52:10,663 "GET /shifts HTTP/1.1" 200 8425
+INFO 2023-04-20 13:56:58,778 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 13:57:01,473 Watching for file changes with StatReloader
+INFO 2023-04-20 13:57:26,048 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 13:57:28,521 Watching for file changes with StatReloader
+INFO 2023-04-20 13:57:48,288 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:57:50,165 Watching for file changes with StatReloader
+INFO 2023-04-20 13:58:21,931 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 13:58:24,197 Watching for file changes with StatReloader
+INFO 2023-04-20 13:58:56,802 "GET /shifts HTTP/1.1" 200 8425
+INFO 2023-04-20 13:58:58,490 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 14:11:34,597 "GET /shifts HTTP/1.1" 200 8425
+INFO 2023-04-20 14:13:09,285 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:13:11,411 Watching for file changes with StatReloader
+INFO 2023-04-20 14:13:33,526 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:13:35,453 Watching for file changes with StatReloader
+INFO 2023-04-20 14:13:39,542 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:13:42,556 Watching for file changes with StatReloader
+INFO 2023-04-20 14:13:44,588 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:13:46,717 Watching for file changes with StatReloader
+INFO 2023-04-20 14:13:50,945 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:13:53,314 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:04,884 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:07,694 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:14,790 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:17,300 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:22,401 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:24,720 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:28,408 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:30,497 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:37,429 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:39,605 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:41,409 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:43,792 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:45,215 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:47,755 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:49,237 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:51,257 Watching for file changes with StatReloader
+INFO 2023-04-20 14:14:53,967 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:14:56,520 Watching for file changes with StatReloader
+INFO 2023-04-20 14:15:29,493 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:15:32,943 Watching for file changes with StatReloader
+INFO 2023-04-20 14:15:36,710 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:15:39,229 Watching for file changes with StatReloader
+INFO 2023-04-20 14:15:42,217 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 14:15:44,440 Watching for file changes with StatReloader
+INFO 2023-04-20 14:16:13,295 C:\Users\EliteBook\nspSystem\backend\forms.py changed, reloading.
+INFO 2023-04-20 14:16:15,536 Watching for file changes with StatReloader
+INFO 2023-04-20 14:17:27,262 Watching for file changes with StatReloader
+INFO 2023-04-20 14:17:34,635 "GET /shifts HTTP/1.1" 200 8425
+INFO 2023-04-20 14:19:15,307 "GET /shifts HTTP/1.1" 200 8714
+INFO 2023-04-20 14:19:57,293 "POST /shifts HTTP/1.1" 200 9044
+INFO 2023-04-20 14:20:11,780 "POST /shifts HTTP/1.1" 200 9343
+INFO 2023-04-20 14:20:19,077 "GET /shifts HTTP/1.1" 200 9312
+INFO 2023-04-20 14:21:55,999 "GET /shifts HTTP/1.1" 200 9456
+INFO 2023-04-20 14:23:22,044 "GET /schedule HTTP/1.1" 200 6774
+INFO 2023-04-20 14:27:18,827 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:21,667 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:23,581 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:25,969 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:29,095 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:31,859 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:34,803 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:37,001 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:44,354 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:46,360 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:48,346 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:50,424 Watching for file changes with StatReloader
+INFO 2023-04-20 14:27:52,033 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:27:53,997 Watching for file changes with StatReloader
+INFO 2023-04-20 14:28:22,832 "GET /schedule HTTP/1.1" 200 9153
+INFO 2023-04-20 14:28:59,590 "GET /schedule HTTP/1.1" 200 10163
+INFO 2023-04-20 14:30:35,058 "GET /schedule HTTP/1.1" 200 11589
+INFO 2023-04-20 14:34:26,947 "GET /schedule HTTP/1.1" 200 10995
+ERROR 2023-04-20 14:34:48,905 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 81, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'Shifts' object is not iterable
+ERROR 2023-04-20 14:34:48,910 "GET /schedule HTTP/1.1" 500 148266
+INFO 2023-04-20 14:39:37,269 "GET /schedule HTTP/1.1" 200 12723
+INFO 2023-04-20 14:40:38,533 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:40:42,187 Watching for file changes with StatReloader
+INFO 2023-04-20 14:41:43,731 "GET /schedule HTTP/1.1" 200 8016
+ERROR 2023-04-20 14:42:31,994 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 81, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'ShiftAssignment' object is not iterable
+ERROR 2023-04-20 14:42:31,999 "GET /schedule HTTP/1.1" 500 138288
+INFO 2023-04-20 14:42:49,373 "GET /schedule HTTP/1.1" 200 7834
+INFO 2023-04-20 14:43:13,096 "GET /schedule HTTP/1.1" 200 7834
+INFO 2023-04-20 14:44:15,342 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:44:17,684 Watching for file changes with StatReloader
+INFO 2023-04-20 14:44:23,987 "GET /schedule HTTP/1.1" 200 7757
+INFO 2023-04-20 14:44:36,008 "GET /shifts HTTP/1.1" 200 9456
+INFO 2023-04-20 14:44:38,305 "GET /schedule HTTP/1.1" 200 7757
+INFO 2023-04-20 14:44:47,764 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:44:49,786 Watching for file changes with StatReloader
+INFO 2023-04-20 14:44:51,625 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:44:53,679 Watching for file changes with StatReloader
+INFO 2023-04-20 14:44:58,283 "GET /schedule HTTP/1.1" 200 7757
+INFO 2023-04-20 14:45:08,243 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:10,434 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:12,013 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:14,298 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:21,119 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:23,865 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:25,920 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:28,154 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:30,911 "GET /schedule HTTP/1.1" 200 7757
+INFO 2023-04-20 14:45:47,442 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:49,963 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:53,684 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:45:56,030 Watching for file changes with StatReloader
+INFO 2023-04-20 14:45:58,229 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:46:00,561 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:46:01,715 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass:
+TypeError: 'ShiftAssignment' object is not iterable
+ERROR 2023-04-20 14:46:01,717 "GET /schedule HTTP/1.1" 500 71297
+INFO 2023-04-20 14:46:11,333 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:46:14,219 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:46:15,134 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass.all:
+AttributeError: 'ShiftAssignment' object has no attribute 'all'
+ERROR 2023-04-20 14:46:15,136 "GET /schedule HTTP/1.1" 500 71540
+INFO 2023-04-20 14:47:20,821 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:47:23,908 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:47:27,126 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass.shift.all:
+AttributeError: 'Shifts' object has no attribute 'all'
+ERROR 2023-04-20 14:47:27,128 "GET /schedule HTTP/1.1" 500 71516
+INFO 2023-04-20 14:47:34,424 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:47:36,955 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:47:37,488 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass.shift:
+TypeError: 'Shifts' object is not iterable
+ERROR 2023-04-20 14:47:37,490 "GET /schedule HTTP/1.1" 500 71410
+INFO 2023-04-20 14:48:29,092 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:48:31,734 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:48:33,803 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass.shift.all():
+AttributeError: 'Shifts' object has no attribute 'all'
+ERROR 2023-04-20 14:48:33,805 "GET /schedule HTTP/1.1" 500 71361
+INFO 2023-04-20 14:49:12,098 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:49:14,263 Watching for file changes with StatReloader
+INFO 2023-04-20 14:49:16,391 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:49:18,453 Watching for file changes with StatReloader
+INFO 2023-04-20 14:49:39,436 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:49:42,223 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:49:44,420 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 60, in SchduleView
+    for s in ass.shifts.all():
+AttributeError: 'ShiftAssignment' object has no attribute 'shifts'
+ERROR 2023-04-20 14:49:44,421 "GET /schedule HTTP/1.1" 500 71411
+INFO 2023-04-20 14:49:59,245 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:50:01,307 Watching for file changes with StatReloader
+INFO 2023-04-20 14:50:05,209 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:50:07,920 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:50:09,352 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 61, in SchduleView
+    for s in ass.shift.all():
+AttributeError: 'Shifts' object has no attribute 'all'
+ERROR 2023-04-20 14:50:09,356 "GET /schedule HTTP/1.1" 500 71703
+INFO 2023-04-20 14:52:29,641 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:52:31,977 Watching for file changes with StatReloader
+INFO 2023-04-20 14:52:34,446 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:52:36,183 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:52:42,903 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 61, in SchduleView
+    shifts = assignment.shift.all()
+AttributeError: 'Shifts' object has no attribute 'all'
+ERROR 2023-04-20 14:52:42,904 "GET /schedule HTTP/1.1" 500 71632
+INFO 2023-04-20 14:54:45,703 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:54:47,724 Watching for file changes with StatReloader
+INFO 2023-04-20 14:54:54,487 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:54:56,813 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:55:02,055 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 85, in SchduleView
+    context = {"nurse_shifts": nurse_shifts, "assignments":assignments}
+NameError: name 'assignments' is not defined
+ERROR 2023-04-20 14:55:02,057 "GET /schedule HTTP/1.1" 500 71988
+INFO 2023-04-20 14:55:18,365 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:55:20,560 Watching for file changes with StatReloader
+ERROR 2023-04-20 14:55:23,229 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'ShiftAssignment' object is not iterable
+ERROR 2023-04-20 14:55:23,233 "GET /schedule HTTP/1.1" 500 123346
+INFO 2023-04-20 14:55:57,638 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:55:59,546 Watching for file changes with StatReloader
+INFO 2023-04-20 14:56:04,692 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:56:06,527 Watching for file changes with StatReloader
+INFO 2023-04-20 14:56:16,090 "GET /schedule HTTP/1.1" 200 7757
+ERROR 2023-04-20 14:56:52,404 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'Shifts' object is not iterable
+ERROR 2023-04-20 14:56:52,407 "GET /schedule HTTP/1.1" 500 138366
+INFO 2023-04-20 14:57:24,013 "GET /schedule HTTP/1.1" 200 7757
+INFO 2023-04-20 14:57:59,922 "GET /schedule HTTP/1.1" 200 7848
+INFO 2023-04-20 14:58:58,320 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 14:59:00,702 Watching for file changes with StatReloader
+INFO 2023-04-20 14:59:14,193 "GET /schedule HTTP/1.1" 200 7848
+INFO 2023-04-20 15:00:16,598 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:00:19,467 Watching for file changes with StatReloader
+INFO 2023-04-20 15:00:21,036 "GET /schedule HTTP/1.1" 200 7848
+INFO 2023-04-20 15:01:57,731 "GET /schedule HTTP/1.1" 200 7804
+INFO 2023-04-20 15:03:05,786 "GET /schedule HTTP/1.1" 200 8197
+INFO 2023-04-20 15:04:37,458 "GET /schedule HTTP/1.1" 200 6258
+INFO 2023-04-20 15:04:39,134 "GET /schedule HTTP/1.1" 200 6258
+INFO 2023-04-20 15:04:59,341 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:05:01,101 Watching for file changes with StatReloader
+INFO 2023-04-20 15:05:17,243 "GET /schedule HTTP/1.1" 200 7116
+INFO 2023-04-20 15:05:47,702 "GET /schedule HTTP/1.1" 200 8474
+INFO 2023-04-20 15:09:22,684 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:09:24,600 Watching for file changes with StatReloader
+INFO 2023-04-20 15:09:33,689 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:09:35,837 Watching for file changes with StatReloader
+INFO 2023-04-20 15:09:46,927 "GET /schedule HTTP/1.1" 200 9585
+INFO 2023-04-20 15:10:09,740 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:10:11,532 Watching for file changes with StatReloader
+INFO 2023-04-20 15:13:17,713 "GET /nurses HTTP/1.1" 200 8228
+INFO 2023-04-20 15:13:19,263 "GET /shifts HTTP/1.1" 200 8030
+INFO 2023-04-20 15:13:20,597 "GET /schedule HTTP/1.1" 200 6258
+INFO 2023-04-20 15:13:23,065 "GET /shifts HTTP/1.1" 200 8030
+INFO 2023-04-20 15:13:23,890 "GET /nurses HTTP/1.1" 200 8228
+INFO 2023-04-20 15:13:49,718 "POST /nurses HTTP/1.1" 200 8810
+INFO 2023-04-20 15:14:18,697 "POST /nurses HTTP/1.1" 200 8810
+INFO 2023-04-20 15:14:24,360 "POST /nurses HTTP/1.1" 200 8810
+INFO 2023-04-20 15:14:27,985 "POST /nurses HTTP/1.1" 200 8810
+INFO 2023-04-20 15:14:55,184 "POST /nurses HTTP/1.1" 200 9394
+INFO 2023-04-20 15:14:58,255 "GET /shifts HTTP/1.1" 200 8146
+INFO 2023-04-20 15:15:34,623 "POST /shifts HTTP/1.1" 200 8501
+INFO 2023-04-20 15:16:03,681 "POST /shifts HTTP/1.1" 200 8823
+INFO 2023-04-20 15:16:06,098 "GET /shifts HTTP/1.1" 200 8794
+INFO 2023-04-20 15:16:08,095 "GET /schedule HTTP/1.1" 200 6258
+INFO 2023-04-20 15:16:13,524 "GET /schedule HTTP/1.1" 200 6258
+INFO 2023-04-20 15:16:28,880 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:16:31,294 Watching for file changes with StatReloader
+INFO 2023-04-20 15:16:31,599 "GET /schedule HTTP/1.1" 200 6808
+INFO 2023-04-20 15:17:58,713 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:18:01,640 Watching for file changes with StatReloader
+INFO 2023-04-20 15:18:03,090 "GET /schedule HTTP/1.1" 200 6808
+INFO 2023-04-20 15:19:09,042 "GET /schedule HTTP/1.1" 200 6774
+ERROR 2023-04-20 15:19:57,008 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'Shifts' object is not iterable
+ERROR 2023-04-20 15:19:57,011 "GET /schedule HTTP/1.1" 500 133608
+INFO 2023-04-20 15:20:13,232 "GET /schedule HTTP/1.1" 200 6774
+ERROR 2023-04-20 15:20:56,695 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 29, in get_template
+    return Template(
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 817, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 76: 'for'. Looking for one of: empty, endfor.
+ERROR 2023-04-20 15:20:56,699 "GET /schedule HTTP/1.1" 500 163600
+INFO 2023-04-20 15:21:07,900 "GET /schedule HTTP/1.1" 200 6778
+INFO 2023-04-20 15:21:24,639 "GET /schedule HTTP/1.1" 200 6799
+INFO 2023-04-20 15:22:12,257 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:22:14,379 Watching for file changes with StatReloader
+INFO 2023-04-20 15:22:48,510 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:22:50,630 Watching for file changes with StatReloader
+INFO 2023-04-20 15:22:58,663 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:23:00,892 Watching for file changes with StatReloader
+INFO 2023-04-20 15:23:02,989 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:23:05,180 Watching for file changes with StatReloader
+ERROR 2023-04-20 15:23:07,989 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 83, in SchduleView
+    return render(request, template_name, context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 214, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 170, in render
+    values = list(values)
+TypeError: 'Shifts' object is not iterable
+ERROR 2023-04-20 15:23:07,994 "GET /schedule HTTP/1.1" 500 133646
+INFO 2023-04-20 15:23:45,830 "GET /schedule HTTP/1.1" 200 6761
+INFO 2023-04-20 15:24:21,964 "GET /schedule HTTP/1.1" 200 6683
+INFO 2023-04-20 15:25:25,398 "GET /schedule HTTP/1.1" 200 6683
+INFO 2023-04-20 15:25:52,180 "GET /schedule HTTP/1.1" 200 6657
+INFO 2023-04-20 15:27:14,490 "GET /schedule HTTP/1.1" 200 6719
+INFO 2023-04-20 15:27:43,219 "GET /schedule HTTP/1.1" 200 6775
+INFO 2023-04-20 15:28:45,662 "GET /schedule HTTP/1.1" 200 6758
+INFO 2023-04-20 15:30:38,810 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 15:31:03,752 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:31:06,613 Watching for file changes with StatReloader
+INFO 2023-04-20 15:31:16,870 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:31:18,711 Watching for file changes with StatReloader
+INFO 2023-04-20 15:31:28,803 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:31:31,428 Watching for file changes with StatReloader
+INFO 2023-04-20 15:31:37,838 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 15:31:38,998 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 15:31:48,267 "GET / HTTP/1.1" 200 3662
+INFO 2023-04-20 15:33:26,866 "GET / HTTP/1.1" 200 4576
+INFO 2023-04-20 15:33:58,291 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:34:00,290 Watching for file changes with StatReloader
+INFO 2023-04-20 15:34:06,326 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:34:09,054 Watching for file changes with StatReloader
+INFO 2023-04-20 15:34:09,726 "GET / HTTP/1.1" 200 5116
+INFO 2023-04-20 15:34:12,634 "GET / HTTP/1.1" 200 5116
+INFO 2023-04-20 15:34:24,551 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:34:27,074 Watching for file changes with StatReloader
+INFO 2023-04-20 15:34:30,210 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:34:32,409 Watching for file changes with StatReloader
+INFO 2023-04-20 15:37:00,477 C:\Users\EliteBook\nspSystem\backend\models.py changed, reloading.
+INFO 2023-04-20 15:37:02,600 Watching for file changes with StatReloader
+INFO 2023-04-20 15:45:10,478 Watching for file changes with StatReloader
+INFO 2023-04-20 15:45:50,836 Watching for file changes with StatReloader
+INFO 2023-04-20 15:46:04,372 "GET / HTTP/1.1" 200 5116
+INFO 2023-04-20 15:46:04,845 "GET /static/styles/style.css HTTP/1.1" 200 16562
+INFO 2023-04-20 15:46:04,883 "GET /static/dist/css/adminlte.min.css HTTP/1.1" 200 686718
+INFO 2023-04-20 15:46:04,971 "GET /static/styles/responsive.css HTTP/1.1" 200 4449
+INFO 2023-04-20 15:46:05,108 "GET /static/dist/js/jquery.formset.js HTTP/1.1" 200 13881
+INFO 2023-04-20 15:46:05,161 "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+INFO 2023-04-20 15:46:05,199 "GET /static/plugins/toastr/toastr.min.css HTTP/1.1" 200 6454
+INFO 2023-04-20 15:46:05,255 "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+INFO 2023-04-20 15:46:05,309 "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19736
+INFO 2023-04-20 15:46:05,312 "GET /static/plugins/Datatables/datatables.min.css HTTP/1.1" 200 25807
+INFO 2023-04-20 15:46:05,385 "GET /static/plugins/toastr/toastr.min.js HTTP/1.1" 200 5253
+INFO 2023-04-20 15:46:05,423 "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+INFO 2023-04-20 15:46:05,493 "GET /static/dist/js/demo.js HTTP/1.1" 200 13042
+INFO 2023-04-20 15:46:05,499 "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+INFO 2023-04-20 15:46:05,597 "GET /static/dist/js/adminlte.js HTTP/1.1" 200 59416
+INFO 2023-04-20 15:46:06,149 "GET /static/plugins/Datatables/datatables.min.js HTTP/1.1" 200 2042927
+WARNING 2023-04-20 15:46:10,868 Not Found: /favicon.ico
+WARNING 2023-04-20 15:46:10,874 "GET /favicon.ico HTTP/1.1" 404 2806
+INFO 2023-04-20 15:46:40,400 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:46:44,134 Watching for file changes with StatReloader
+INFO 2023-04-20 15:46:49,581 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:46:51,706 Watching for file changes with StatReloader
+INFO 2023-04-20 15:47:41,963 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-04-20 15:47:45,852 Watching for file changes with StatReloader
+INFO 2023-04-20 15:50:31,633 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:33,573 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-04-20 15:50:33,598 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:35,013 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-04-20 15:50:35,044 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:36,030 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-04-20 15:50:36,062 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:36,940 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-04-20 15:50:36,968 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:38,141 "GET /shifts HTTP/1.1" 200 8803
+INFO 2023-04-20 15:50:39,396 "GET /nurses HTTP/1.1" 200 9403
+INFO 2023-04-20 15:50:40,366 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:50:41,405 "GET /nurses HTTP/1.1" 200 9403
+INFO 2023-04-20 15:50:42,771 "GET /shifts HTTP/1.1" 200 8803
+INFO 2023-04-20 15:50:46,634 "GET /nurses HTTP/1.1" 200 9403
+INFO 2023-04-20 15:50:47,684 "GET /shifts HTTP/1.1" 200 8803
+INFO 2023-04-20 15:50:50,133 "GET /nurses HTTP/1.1" 200 9403
+INFO 2023-04-20 15:50:56,424 "GET / HTTP/1.1" 200 5081
+INFO 2023-04-20 15:51:15,715 "GET /nurses HTTP/1.1" 200 9403
+INFO 2023-04-20 15:51:42,123 "GET /shifts HTTP/1.1" 200 8803
+INFO 2023-04-20 16:08:52,623 C:\Users\EliteBook\nspSystem\nspSystem\settings.py changed, reloading.
+INFO 2023-04-20 16:08:54,628 Watching for file changes with StatReloader
+INFO 2023-04-20 16:09:00,659 C:\Users\EliteBook\nspSystem\nspSystem\settings.py changed, reloading.
+INFO 2023-04-20 16:09:15,885 Watching for file changes with StatReloader
+INFO 2023-04-20 16:10:00,925 "GET /shifts HTTP/1.1" 200 8039
+INFO 2023-04-20 16:10:03,838 "GET /nurses HTTP/1.1" 200 8237
