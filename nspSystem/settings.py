@@ -180,7 +180,7 @@ LOGGING = {
             "interval": 4,
             "backupCount": 3,
             "encoding": "utf8",
-            'filename': os.path.join(BASE_DIR, 'logs/log.log'),
+            'filename': os.path.join(BASE_DIR, 'logs/logs.log'),
             "formatter": "verbose",
         },
     },

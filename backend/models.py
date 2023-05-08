@@ -47,17 +47,18 @@ class Nurses(models.Model):
         
     def is_available(self, timeinterval):
         # Parse the time interval into start and end times
-        start, end = timeinterval.split('-')
-        start = datetime.strptime(start.strip(), '%H')
-        end = datetime.strptime(end.strip(), '%H')
+        # start, end = timeinterval.split('-')
+        # start = datetime.strptime(start.strip(), '%H')
+        # end = datetime.strptime(end.strip(), '%H')
 
-        # Convert the start and end times to datetimes for the current day
-        now = datetime.now()
-        start = now.replace(hour=start.hour, minute=0, second=0, microsecond=0)
-        end = now.replace(hour=end.hour, minute=0, second=0, microsecond=0)
+        # # Convert the start and end times to datetimes for the current day
+        # now = datetime.now()
+        # start = now.replace(hour=start.hour, minute=0, second=0, microsecond=0)
+        # end = now.replace(hour=end.hour, minute=0, second=0, microsecond=0)
 
         # Check if the nurse is available during the time interval
-        return self.hours_available >= (end - start).total_seconds() / 3600
+        # return self.hours_available >= (end - start).total_seconds() / 3600
+        return len(timeinterval)
 
     def __str__(self):
         return f"{self.nurse_id}"    

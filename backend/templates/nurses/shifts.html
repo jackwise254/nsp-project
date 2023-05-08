@@ -67,13 +67,48 @@
       <div class="col-10"></div>
       <!-- <a href="#" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#largeModal">Click to open Modal</a> -->
 
-      <div class="col-2"><a class="btn btn-outline-success btn-sm" href="#" data-toggle="modal" data-target="#largeModal"><i class="bi bi-calendar2-plus"></i>shift</a></div>
+      <div class="col-2"><a class="btn btn-outline-success btn-sm d-none" href="#" data-toggle="modal" data-target="#largeModal"><i class="bi bi-calendar2-plus"></i>shift</a></div>
     </div>
 
     
   {% endblock breadcrumb %}
 
-    <div class="table-responsive">
+
+  <div class="table-responsive">
+    <table id="stu" class="table table-bordered table-hover table-sm" data-page-length='100'>
+      <thead class="thead-light">
+        <tr>
+          <th>S/N</th>
+          <th>Nurse Id</th>
+          <th>Shift Type</th>
+          <th>W.Days</th>
+          <th>Penalty</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for nurse, data in nurses.items %}
+          <tr class='clickable-row' data-href="">
+            <td>{{ forloop.counter}}</td>
+            <td>{{ nurse}}</td>
+            <td>{{ nurse.shift_type}}</td>
+            <td>
+              {% for availability in nurse.available_days.all %}
+              {{availability}}
+                {% if not forloop.last %}, {% endif %}
+              {% endfor %}
+            </td>
+            <td>
+              {{data.penalty_cost}}
+            </td>
+          </tr>
+        {% endfor %}
+
+      </tbody>
+    </table>
+  </div>
+
+    <!-- <div class="table-responsive">
       <table id="stu" class="table table-bordered table-hover table-sm" data-page-length='100'>
         <thead class="thead-light">
           <tr>
@@ -99,10 +134,10 @@
           {% endfor %}
         </tbody>
       </table>
-    </div>
+    </div> -->
     <div class="row">
       <div class="col-10"></div>
-      <div class="col-2"><a class="btn btn-outline-warning btn-sm" href="/schedule" >Generate</a></div>
+      <div class="col-2"><a class="btn btn-outline-warning btn-sm" href="/schedule" >Improve</a></div>
     </div>
 
 

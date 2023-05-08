@@ -7,26 +7,26 @@ from .models import Shifts, Nurses
 class ShiftsForm(forms.ModelForm):
     CONSTRAINT_CHOICES = [("soft", "Soft"), ("hard", "Hard")]
     SHIFT_CHOICES = [("day", "Day"), ("night", "Night")]
-    PENALTY_CHOICES = [(20, 20), (10, 10)]
+    # PENALTY_CHOICES = [(20, 20), (10, 10)]
 
     shifttype = forms.ChoiceField(choices=SHIFT_CHOICES)
     coverage_demand = forms.IntegerField(min_value=1)
     constraints = forms.ChoiceField(choices=CONSTRAINT_CHOICES)
-    penalty_cost = forms.ChoiceField(choices=PENALTY_CHOICES)
+    # penalty_cost = forms.ChoiceField(choices=PENALTY_CHOICES)
     priority = forms.IntegerField(min_value=1, max_value=10)
     user = forms.ModelChoiceField(queryset=Nurses.objects.all())
     timeinterval = forms.CharField(max_length=200, required=False)
 
     class Meta:
         model = Shifts
-        fields = ['user','shifttype', 'coverage_demand', 'constraints', 'penalty_cost', 'priority', 'timeinterval']
+        fields = ['user','shifttype', 'coverage_demand', 'constraints', 'priority', 'timeinterval']
 
         labels = {
             'user': 'Nurse',
             'shifttype': 'Shift Type',
             'coverage_demand': 'Coverage Demand',
             'constraints': 'Constraints',
-            'penalty_cost': 'Penalty Cost',
+            # 'penalty_cost': 'Penalty Cost',
             'priority': 'Priority',
             'timeinterval': 'Time Interval',
         }
@@ -35,7 +35,7 @@ class ShiftsForm(forms.ModelForm):
             'shifttype': forms.Select(attrs={'class': 'form-control'}),
             'coverage_demand': forms.NumberInput(attrs={'class': 'form-control'}),
             'constraints': forms.Select(attrs={'class': 'form-control'}),
-            'penalty_cost': forms.Select(attrs={'class': 'form-control'}),
+            # 'penalty_cost': forms.Select(attrs={'class': 'form-control'}),
             'priority': forms.NumberInput(attrs={'class': 'form-control', 'min': 1, 'max': 10}),
             'timeinterval': forms.TextInput(attrs={'class': 'form-control'}),
         }

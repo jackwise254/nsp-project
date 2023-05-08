@@ -1,0 +1,472 @@
+INFO 2023-05-08 16:44:05,362 Watching for file changes with StatReloader
+INFO 2023-05-08 16:44:09,360 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:44:09,432 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:44:47,752 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:44:56,827 "GET /nurses HTTP/1.1" 200 10261
+INFO 2023-05-08 16:45:03,477 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:45:37,733 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:45:39,749 Watching for file changes with StatReloader
+INFO 2023-05-08 16:46:02,712 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:46:05,594 Watching for file changes with StatReloader
+INFO 2023-05-08 16:46:08,507 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:46:11,456 Watching for file changes with StatReloader
+INFO 2023-05-08 16:46:12,689 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:46:12,783 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:46:51,856 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:46:54,050 Watching for file changes with StatReloader
+INFO 2023-05-08 16:46:58,932 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:46:59,003 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:48:17,761 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:48:21,606 Watching for file changes with StatReloader
+INFO 2023-05-08 16:48:25,943 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:48:28,212 Watching for file changes with StatReloader
+INFO 2023-05-08 16:48:28,741 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:48:30,552 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:48:30,588 "GET /shifts HTTP/1.1" 200 8223
+INFO 2023-05-08 16:49:07,104 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:49:10,037 Watching for file changes with StatReloader
+INFO 2023-05-08 16:49:12,209 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:49:14,971 Watching for file changes with StatReloader
+INFO 2023-05-08 16:49:46,403 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:49:48,506 Watching for file changes with StatReloader
+INFO 2023-05-08 16:49:50,062 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:49:52,082 Watching for file changes with StatReloader
+INFO 2023-05-08 16:49:54,036 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:49:55,798 Watching for file changes with StatReloader
+INFO 2023-05-08 16:49:59,937 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:01,997 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:04,987 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:06,896 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:08,934 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:10,832 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:13,370 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:15,501 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:16,974 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:19,143 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:24,195 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:26,256 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:30,107 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:32,776 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:39,775 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:42,157 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:44,450 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:47,146 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:49,169 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:51,210 Watching for file changes with StatReloader
+INFO 2023-05-08 16:50:56,368 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:50:59,593 Watching for file changes with StatReloader
+INFO 2023-05-08 16:51:05,046 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:51:07,925 Watching for file changes with StatReloader
+INFO 2023-05-08 16:51:13,442 "GET /shifts HTTP/1.1" 200 8223
+ERROR 2023-05-08 16:51:15,687 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 133, in SchduleView
+    shifts = {nurse: [] for nurse.shift_type in nurses}
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 133, in <dictcomp>
+    shifts = {nurse: [] for nurse.shift_type in nurses}
+NameError: free variable 'nurse' referenced before assignment in enclosing scope
+ERROR 2023-05-08 16:51:15,690 "GET /schedule HTTP/1.1" 500 74515
+INFO 2023-05-08 16:51:35,346 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:51:37,747 Watching for file changes with StatReloader
+ERROR 2023-05-08 16:51:41,271 Internal Server Error: /schedule
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'night'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 148, in SchduleView
+    shift_assignment = ShiftAssignment.objects.get(nurse=nurse, shift=shift, shift_type=nurse.shift_type)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 636, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'night'.
+ERROR 2023-05-08 16:51:41,280 "GET /schedule HTTP/1.1" 500 134362
+INFO 2023-05-08 16:56:37,601 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:56:39,823 Watching for file changes with StatReloader
+INFO 2023-05-08 16:56:58,404 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:56:58,465 "GET /shifts HTTP/1.1" 200 8224
+INFO 2023-05-08 16:57:00,299 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:57:00,332 "GET /shifts HTTP/1.1" 200 8224
+INFO 2023-05-08 16:57:04,701 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 16:57:04,739 "GET /shifts HTTP/1.1" 200 8224
+INFO 2023-05-08 16:57:20,213 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:22,612 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:24,330 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:26,182 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:36,537 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:39,452 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:43,487 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:45,985 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:49,970 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:52,242 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:54,226 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:57:56,734 Watching for file changes with StatReloader
+INFO 2023-05-08 16:57:59,851 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:01,640 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:19,144 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:21,190 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:29,197 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:31,534 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:33,388 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:35,566 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:39,076 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:41,039 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:47,692 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:49,878 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:54,394 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:58:56,746 Watching for file changes with StatReloader
+INFO 2023-05-08 16:58:59,823 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:59:01,942 Watching for file changes with StatReloader
+INFO 2023-05-08 16:59:39,469 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:59:42,035 Watching for file changes with StatReloader
+INFO 2023-05-08 16:59:43,543 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:59:46,559 Watching for file changes with StatReloader
+INFO 2023-05-08 16:59:49,099 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:59:51,143 Watching for file changes with StatReloader
+INFO 2023-05-08 16:59:53,014 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 16:59:55,043 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:01,722 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:04,641 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:07,276 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:09,904 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:24,076 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:26,441 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:32,080 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:34,228 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:38,781 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:40,872 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:43,802 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:46,423 Watching for file changes with StatReloader
+INFO 2023-05-08 17:00:54,857 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:00:57,518 Watching for file changes with StatReloader
+INFO 2023-05-08 17:01:07,310 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:01:09,610 Watching for file changes with StatReloader
+INFO 2023-05-08 17:01:12,420 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:01:14,527 Watching for file changes with StatReloader
+INFO 2023-05-08 17:01:40,158 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:01:42,176 Watching for file changes with StatReloader
+INFO 2023-05-08 17:01:55,035 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:01:57,187 Watching for file changes with StatReloader
+INFO 2023-05-08 17:01:58,767 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:01,012 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:02,652 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:05,076 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:06,540 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:08,648 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:13,310 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:15,427 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:17,439 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:20,095 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:21,987 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:24,523 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:29,860 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:31,903 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:33,939 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:02:36,392 Watching for file changes with StatReloader
+INFO 2023-05-08 17:02:42,273 "GET /shifts HTTP/1.1" 200 8224
+INFO 2023-05-08 17:02:46,689 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 17:02:46,748 "GET /shifts HTTP/1.1" 200 8485
+INFO 2023-05-08 17:03:18,283 "GET /shifts HTTP/1.1" 200 8485
+INFO 2023-05-08 17:03:52,143 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:03:59,315 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 17:03:59,376 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:05:36,252 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:05:37,857 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 17:05:37,911 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:06:37,671 "GET / HTTP/1.1" 200 7957
+INFO 2023-05-08 17:06:47,773 "GET /scheduled HTTP/1.1" 302 0
+INFO 2023-05-08 17:06:47,826 "GET / HTTP/1.1" 200 7775
+INFO 2023-05-08 17:07:07,110 "GET /nurses HTTP/1.1" 200 10259
+INFO 2023-05-08 17:07:09,480 "GET /shifts HTTP/1.1" 200 8494
+INFO 2023-05-08 17:14:55,861 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:15:00,082 Watching for file changes with StatReloader
+INFO 2023-05-08 17:15:02,623 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:15:04,727 Watching for file changes with StatReloader
+INFO 2023-05-08 17:15:06,194 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:15:08,561 Watching for file changes with StatReloader
+INFO 2023-05-08 17:15:12,560 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:15:15,725 Watching for file changes with StatReloader
+INFO 2023-05-08 17:15:16,495 "GET /shifts HTTP/1.1" 200 8494
+INFO 2023-05-08 17:15:18,827 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 17:15:18,885 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:18:34,559 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:18:37,359 Watching for file changes with StatReloader
+INFO 2023-05-08 17:18:45,078 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:18:47,802 Watching for file changes with StatReloader
+INFO 2023-05-08 17:18:59,151 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:19:01,145 Watching for file changes with StatReloader
+INFO 2023-05-08 17:19:11,224 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:19:13,740 Watching for file changes with StatReloader
+INFO 2023-05-08 17:19:19,206 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:19:21,265 "GET /schedule HTTP/1.1" 302 0
+INFO 2023-05-08 17:19:21,328 "GET /shifts HTTP/1.1" 200 8492
+INFO 2023-05-08 17:21:58,807 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:22:03,255 Watching for file changes with StatReloader
+INFO 2023-05-08 17:24:05,137 "GET /nurses HTTP/1.1" 200 10259
+INFO 2023-05-08 17:24:32,061 "GET /shifts HTTP/1.1" 200 8491
+INFO 2023-05-08 17:26:07,492 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:26:10,036 Watching for file changes with StatReloader
+INFO 2023-05-08 17:26:56,061 "GET /shifts HTTP/1.1" 200 8873
+INFO 2023-05-08 17:27:23,617 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:27:26,056 Watching for file changes with StatReloader
+INFO 2023-05-08 17:27:29,297 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:27:31,913 Watching for file changes with StatReloader
+INFO 2023-05-08 17:27:34,822 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:27:38,208 Watching for file changes with StatReloader
+INFO 2023-05-08 17:27:45,897 "GET /shifts HTTP/1.1" 200 8350
+INFO 2023-05-08 17:27:57,537 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:27:59,602 Watching for file changes with StatReloader
+INFO 2023-05-08 17:28:00,098 "GET /shifts HTTP/1.1" 200 11748
+INFO 2023-05-08 17:29:03,977 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:06,689 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:09,863 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:13,298 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:15,212 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:17,628 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:20,661 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:22,910 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:25,525 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:27,514 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:38,231 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:40,670 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:43,216 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:46,244 Watching for file changes with StatReloader
+INFO 2023-05-08 17:29:57,113 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:29:59,797 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:11,209 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:14,258 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:15,943 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:18,321 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:20,002 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:22,358 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:23,783 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:26,293 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:28,841 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:31,166 Watching for file changes with StatReloader
+INFO 2023-05-08 17:30:34,876 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:30:37,398 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:06,520 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:31:09,625 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:13,281 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:31:16,794 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:18,343 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:31:20,607 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:27,771 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:31:30,044 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:31,941 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:31:40,016 Watching for file changes with StatReloader
+INFO 2023-05-08 17:31:44,643 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:31:53,893 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:32:01,567 Watching for file changes with StatReloader
+INFO 2023-05-08 17:32:04,946 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:32:18,997 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:32:21,788 Watching for file changes with StatReloader
+INFO 2023-05-08 17:32:26,225 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:32:28,891 Watching for file changes with StatReloader
+INFO 2023-05-08 17:32:29,399 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:32:39,327 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:32:42,197 Watching for file changes with StatReloader
+ERROR 2023-05-08 17:32:45,895 Internal Server Error: /shifts
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 86, in ShiftsView
+    print(shift.user)
+AttributeError: 'Shifts' object has no attribute 'us'
+ERROR 2023-05-08 17:32:45,898 "GET /shifts HTTP/1.1" 500 72080
+INFO 2023-05-08 17:32:55,672 Watching for file changes with StatReloader
+INFO 2023-05-08 17:32:59,850 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:33:27,325 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:33:30,222 Watching for file changes with StatReloader
+INFO 2023-05-08 17:33:40,194 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:33:54,945 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:33:57,539 Watching for file changes with StatReloader
+INFO 2023-05-08 17:33:59,525 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:01,834 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:05,837 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:08,284 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:15,384 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:18,103 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:20,660 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:23,066 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:24,797 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:26,878 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:33,677 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:34:36,128 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:42,740 Watching for file changes with StatReloader
+INFO 2023-05-08 17:34:55,346 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:35:09,117 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:35:13,153 Watching for file changes with StatReloader
+INFO 2023-05-08 17:35:13,762 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:35:48,829 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:35:51,745 Watching for file changes with StatReloader
+INFO 2023-05-08 17:35:55,204 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:36:39,631 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:36:41,904 Watching for file changes with StatReloader
+INFO 2023-05-08 17:36:47,865 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:36:49,719 Watching for file changes with StatReloader
+INFO 2023-05-08 17:36:54,111 "GET /shifts HTTP/1.1" 200 11775
+INFO 2023-05-08 17:37:19,687 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:37:22,164 Watching for file changes with StatReloader
+INFO 2023-05-08 17:37:56,968 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:37:59,519 Watching for file changes with StatReloader
+INFO 2023-05-08 17:38:33,220 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:38:35,969 Watching for file changes with StatReloader
+INFO 2023-05-08 17:38:40,667 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:38:42,629 Watching for file changes with StatReloader
+INFO 2023-05-08 17:39:05,369 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:39:08,239 Watching for file changes with StatReloader
+INFO 2023-05-08 17:39:11,870 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:39:14,138 Watching for file changes with StatReloader
+INFO 2023-05-08 17:39:15,656 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:39:17,697 Watching for file changes with StatReloader
+INFO 2023-05-08 17:39:21,378 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:39:24,139 Watching for file changes with StatReloader
+INFO 2023-05-08 17:39:42,332 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:39:45,266 Watching for file changes with StatReloader
+ERROR 2023-05-08 17:40:02,369 Internal Server Error: /shifts
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 93, in ShiftsView
+    nurses[assign.nurse] = {
+TypeError: 'Nurses' object does not support item assignment
+ERROR 2023-05-08 17:40:02,371 "GET /shifts HTTP/1.1" 500 72813
+INFO 2023-05-08 17:41:53,390 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:41:55,627 Watching for file changes with StatReloader
+INFO 2023-05-08 17:41:58,814 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:42:01,074 Watching for file changes with StatReloader
+INFO 2023-05-08 17:42:03,190 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:42:05,499 Watching for file changes with StatReloader
+INFO 2023-05-08 17:42:06,074 "GET /shifts HTTP/1.1" 200 12120
+INFO 2023-05-08 17:42:08,740 "GET /shifts HTTP/1.1" 200 12120
+INFO 2023-05-08 17:43:10,107 "GET /shifts HTTP/1.1" 200 11929
+INFO 2023-05-08 17:43:54,463 "GET /shifts HTTP/1.1" 200 9746
+INFO 2023-05-08 17:45:22,783 "GET /shifts HTTP/1.1" 200 9850
+INFO 2023-05-08 17:45:38,016 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:46:16,109 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:46:30,505 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:46:33,618 Watching for file changes with StatReloader
+INFO 2023-05-08 17:46:45,099 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:46:48,372 Watching for file changes with StatReloader
+INFO 2023-05-08 17:46:50,600 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:46:53,480 Watching for file changes with StatReloader
+INFO 2023-05-08 17:46:56,567 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:46:59,889 Watching for file changes with StatReloader
+INFO 2023-05-08 17:47:04,145 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:47:21,508 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:47:23,685 Watching for file changes with StatReloader
+INFO 2023-05-08 17:47:25,526 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:47:27,795 Watching for file changes with StatReloader
+INFO 2023-05-08 17:47:30,151 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:47:32,672 Watching for file changes with StatReloader
+INFO 2023-05-08 17:47:34,030 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:47:48,205 Watching for file changes with StatReloader
+INFO 2023-05-08 17:47:57,577 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:48:10,313 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:48:19,474 Watching for file changes with StatReloader
+INFO 2023-05-08 17:48:22,990 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:48:36,912 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:48:39,232 Watching for file changes with StatReloader
+INFO 2023-05-08 17:48:45,466 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:48:47,669 Watching for file changes with StatReloader
+INFO 2023-05-08 17:48:49,591 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:48:52,229 Watching for file changes with StatReloader
+INFO 2023-05-08 17:48:54,405 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:48:57,255 Watching for file changes with StatReloader
+INFO 2023-05-08 17:49:00,804 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:49:03,820 Watching for file changes with StatReloader
+INFO 2023-05-08 17:49:09,493 "GET /shifts HTTP/1.1" 200 9506
+INFO 2023-05-08 17:50:04,384 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:06,624 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:08,549 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:11,149 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:17,638 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:19,846 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:23,463 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:25,363 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:40,978 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:42,896 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:50,352 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:52,393 Watching for file changes with StatReloader
+INFO 2023-05-08 17:50:55,656 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:50:58,076 Watching for file changes with StatReloader
+INFO 2023-05-08 17:51:01,180 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:51:03,211 Watching for file changes with StatReloader
+INFO 2023-05-08 17:51:20,113 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:51:22,544 Watching for file changes with StatReloader
+INFO 2023-05-08 17:51:44,671 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:51:48,040 Watching for file changes with StatReloader
+INFO 2023-05-08 17:51:50,173 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:51:56,725 Watching for file changes with StatReloader
+ERROR 2023-05-08 17:52:01,366 Internal Server Error: /shifts
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 90, in ShiftsView
+    'day':nurse.available_days.all(),
+AttributeError: 'list' object has no attribute 'available_days'
+ERROR 2023-05-08 17:52:01,368 "GET /shifts HTTP/1.1" 500 72618
+INFO 2023-05-08 17:52:13,627 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:52:16,100 Watching for file changes with StatReloader
+ERROR 2023-05-08 17:52:16,564 Internal Server Error: /shifts
+Traceback (most recent call last):
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\EliteBook\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\EliteBook\nspSystem\backend\views.py", line 89, in ShiftsView
+    nurses[nursesd.nurse] = {
+AttributeError: 'Nurses' object has no attribute 'nurse'
+ERROR 2023-05-08 17:52:16,566 "GET /shifts HTTP/1.1" 500 72530
+INFO 2023-05-08 17:52:48,975 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 17:52:51,604 Watching for file changes with StatReloader
+INFO 2023-05-08 17:52:52,655 "GET /shifts HTTP/1.1" 200 14358
+INFO 2023-05-08 17:53:03,644 "GET / HTTP/1.1" 200 7958
+INFO 2023-05-08 17:53:07,306 "GET /nurses HTTP/1.1" 200 10259
+INFO 2023-05-08 17:53:10,679 "GET /shifts HTTP/1.1" 200 14358
+INFO 2023-05-08 17:53:22,911 "GET / HTTP/1.1" 200 7958
+INFO 2023-05-08 17:53:36,513 "GET /shifts HTTP/1.1" 200 14358
+INFO 2023-05-08 19:50:04,413 "GET / HTTP/1.1" 200 7958
+INFO 2023-05-08 19:50:44,636 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 19:50:47,382 Watching for file changes with StatReloader
+INFO 2023-05-08 19:53:35,362 C:\Users\EliteBook\nspSystem\backend\views.py changed, reloading.
+INFO 2023-05-08 19:53:37,285 Watching for file changes with StatReloader
